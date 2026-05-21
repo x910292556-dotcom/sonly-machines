@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>首力注塑机 - 管理后台 | SONLY Admin Panel</title>
+<style>
+  :root {
+    --primary: #1a3a6b;
+    --primary-light: #2559a7;
+    --accent: #e8a020;
+    --success: #22c55e;
+    --danger: #ef4444;
+    --bg: #f0f4f8;
+    --card-bg: #fff;
+    --text: #1a2332;
+    --text-light: #5a6a7e;
+    --border: #d0dce8;
+    --shadow: 0 4px 20px rgba(26,58,107,0.10);
+    --radius: 12px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI','Microsoft YaHei',Arial,sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+  .en { font-size: 0.82em; opacity: 0.75; }
+
+  /* Auth screen */
+  .auth-screen {
+    min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(135deg, #0d2347 0%, #1a3a6b 60%, #2559a7 100%);
+  }
+  .auth-card {
+    background: #fff; border-radius: 20px; padding: 40px 40px 36px;
+    width: 400px; max-width: 90vw;
+    box-shadow: 0 24px 80px rgba(0,0,0,0.30);
+    text-align: center;
+  }
+  .auth-logo {
+    width: 64px; height: 64px; background: var(--primary); border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 28px; font-weight: 900; color: #fff;
+    margin: 0 auto 16px;
+  }
+  .auth-card h2 { font-size: 20px; font-weight: 800; margin-bottom: 2px; }
+  .auth-card h2 .en { font-size: 12px; display: block; color: var(--text-light); margin-top: 2px; margin-bottom: 6px; }
+  .auth-card p { font-size: 13px; color: var(--text-light); margin-bottom: 4px; }
+  .auth-card p .en { font-size: 11px; display: block; margin-bottom: 16px; }
+  .auth-input {
+    width: 100%; padding: 12px 14px; border: 1.5px solid var(--border);
+    border-radius: 8px; font-size: 15px; outline: none; text-align: center;
+    letter-spacing: 4px; margin-bottom: 14px;
+  }
+  .auth-input:focus { border-color: var(--primary); }
+  .auth-btn {
+    width: 100%; padding: 12px; background: var(--primary); color: #fff;
+    border: none; border-radius: 8px; font-size: 15px; font-weight: 700;
+    cursor: pointer; transition: background 0.2s;
+  }
+  .auth-btn:hover { background: var(--primary-light); }
+  .auth-error { color: #ef4444; font-size: 13px; margin-bottom: 10px; display: none; }
+  .auth-error .en { font-size: 11px; display: block; opacity: 0.8; }
+  .back-link { display: block; margin-top: 16px; font-size: 13px; color: var(--text-light); text-decoration: none; }
+  .back-link:hover { color: var(--primary); }
+
+  /* Admin UI */
+  .admin-ui { display: none; }
+  .admin-ui.show { display: block; }
+
+  /* Header */
+  .header {
+    background: linear-gradient(135deg, #0d2347 0%, #1a3a6b 60%, #2559a7 100%);
+    color: #fff; padding: 0 32px; display: flex; align-items: center;
+    justify-content: space-between; height: 68px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.25); position: sticky; top: 0; z-index: 100;
+  }
+  .header-left { display: flex; align-items: center; gap: 12px; }
+  .header-logo { width: 40px; height: 40px; background: var(--accent); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 900; color: #fff; }
+  .header-title { font-size: 17px; font-weight: 700; }
+  .header-title .en { font-size: 11px; font-weight: 400; opacity: 0.75; margin-left: 6px; }
+  .header-sub { font-size: 12px; opacity: 0.7; }
+  .header-right { display: flex; gap: 10px; align-items: center; }
+  .hbtn { background: rgba(255,255,255,0.15); color: #fff; border: 1px solid rgba(255,255,255,0.3); padding: 6px 16px; border-radius: 6px; cursor: pointer; font-size: 13px; text-decoration: none; }
+  .hbtn:hover { background: rgba(255,255,255,0.25); }
+
+  /* Main layout */
+  .admin-main { display: flex; height: calc(100vh - 68px); }
+
+  /* Sidebar */
+  .admin-sidebar {
+    width: 260px; min-width: 220px; background: var(--card-bg);
+    border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden;
+  }
+  .sidebar-title {
+    padding: 14px 16px; font-size: 11px; font-weight: 700; color: var(--text-light);
+    letter-spacing: 1px; text-transform: uppercase; border-bottom: 1px solid var(--border);
+  }
+  .sidebar-search {
+    padding: 10px 12px; border-bottom: 1px solid var(--border);
+  }
+  .s-input {
+    width: 100%; padding: 7px 10px; border: 1.5px solid var(--border); border-radius: 6px;
+    font-size: 12px; outline: none;
+  }
+  .s-input:focus { border-color: var(--primary); }
+
+  .admin-model-list { flex: 1; overflow-y: auto; padding: 4px 0; }
+  .admin-model-list::-webkit-scrollbar { width: 4px; }
+  .admin-model-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+  .amodel-item {
+    padding: 9px 16px; cursor: pointer; font-size: 13px; display: flex;
+    align-items: center; gap: 8px; border-left: 3px solid transparent; transition: all 0.15s;
+  }
+  .amodel-item:hover { background: var(--bg); }
+  .amodel-item.active { background: #eef3fb; border-left-color: var(--primary); font-weight: 600; }
+  .abadge {
+    font-size: 10px; font-weight: 700; padding: 1px 5px; border-radius: 4px; flex-shrink: 0;
+  }
+  .uts-badge { background: #dce8f8; color: #1a3a6b; }
+  .f9-badge { background: #fde8dc; color: #7b2d00; }
+
+  /* Content */
+  .admin-content { flex: 1; overflow-y: auto; padding: 24px; }
+  .admin-content::-webkit-scrollbar { width: 6px; }
+  .admin-content::-webkit-scrollbar-thumb { background: var(--border); border-radius: 6px; }
+
+  .admin-welcome { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center; color: var(--text-light); }
+  .admin-welcome h2 { font-size: 20px; color: var(--text); margin-bottom: 4px; }
+  .admin-welcome h2 .en { font-size: 13px; font-weight: 400; color: var(--text-light); display: block; margin-top: 2px; }
+  .admin-welcome p .en { font-size: 11px; display: block; margin-top: 2px; }
+  
+  .edit-panel { display: none; }
+  .edit-panel.show { display: block; }
+
+  .panel-header {
+    background: var(--card-bg); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 16px;
+    box-shadow: var(--shadow); display: flex; align-items: center; justify-content: space-between;
+  }
+  .panel-title { font-size: 22px; font-weight: 800; }
+  .panel-sub { font-size: 13px; color: var(--text-light); margin-top: 3px; }
+
+  /* Section cards */
+  .section-card {
+    background: var(--card-bg); border-radius: var(--radius); box-shadow: var(--shadow);
+    margin-bottom: 16px; overflow: hidden;
+  }
+  .section-head {
+    background: var(--primary); color: #fff; padding: 12px 18px;
+    font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: space-between;
+  }
+  .section-head .en { font-size: 11px; font-weight: 400; opacity: 0.8; }
+  .section-head.f9head { background: #7b2d00; }
+  .section-body { padding: 16px 18px; }
+
+  /* PDF edit area */
+  .pdf-edit-row {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 14px;
+    margin-bottom: 8px;
+  }
+  .pdf-edit-item {
+    border: 1.5px solid var(--border); border-radius: 10px; padding: 14px;
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .pdf-edit-item label { font-size: 12px; font-weight: 700; color: var(--text-light); }
+  .pdf-filename {
+    font-size: 13px; font-family: monospace; background: var(--bg);
+    padding: 8px 10px; border-radius: 6px; word-break: break-all;
+    color: var(--primary); display: flex; align-items: center; gap: 6px;
+  }
+  .pdf-actions { display: flex; gap: 8px; margin-top: 4px; flex-wrap: wrap; }
+  .mini-btn {
+    padding: 5px 12px; border-radius: 6px; font-size: 12px; font-weight: 600;
+    cursor: pointer; border: none; transition: all 0.2s;
+  }
+  .mini-btn-primary { background: var(--primary); color: #fff; }
+  .mini-btn-primary:hover { background: var(--primary-light); }
+  .mini-btn-danger { background: #fef2f2; color: var(--danger); border: 1.5px solid #fca5a5; }
+  .mini-btn-danger:hover { background: #fee2e2; }
+  .mini-btn-outline { background: transparent; color: var(--primary); border: 1.5px solid var(--primary); }
+  .mini-btn-outline:hover { background: #eef3fb; }
+  
+  /* Upload drop zone */
+  .upload-zone {
+    border: 2px dashed var(--border); border-radius: 10px; padding: 20px;
+    text-align: center; cursor: pointer; transition: all 0.2s;
+    font-size: 13px; color: var(--text-light);
+    display: none;
+  }
+  .upload-zone.show { display: block; }
+  .upload-zone:hover, .upload-zone.drag-over { border-color: var(--primary); background: #eef3fb; color: var(--primary); }
+  .upload-zone input { display: none; }
+
+  /* Spec edit */
+  .spec-edit-table { width: 100%; border-collapse: collapse; }
+  .spec-edit-table th {
+    background: #f0f4f8; padding: 8px 12px; font-size: 11px; font-weight: 700;
+    color: var(--text-light); text-align: left; border-bottom: 1.5px solid var(--border);
+  }
+  .spec-edit-table td {
+    padding: 6px 8px; border-bottom: 1px solid #f0f4f8;
+    vertical-align: middle;
+  }
+  .spec-edit-table tr:hover td { background: #fafcff; }
+  .edit-input {
+    width: 100%; padding: 5px 8px; border: 1px solid transparent; border-radius: 5px;
+    font-size: 12px; font-family: inherit; background: transparent;
+    transition: all 0.15s;
+  }
+  .edit-input:focus { border-color: var(--primary-light); background: #fff; outline: none; }
+  .section-tag {
+    background: #f0f4f8; color: var(--text-light);
+    font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px;
+  }
+  
+  /* Action bar */
+  .action-bar {
+    background: var(--card-bg); border-radius: var(--radius); padding: 14px 18px;
+    box-shadow: var(--shadow); display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 16px; flex-wrap: wrap; gap: 10px;
+  }
+  .action-bar-left { font-size: 13px; color: var(--text-light); line-height: 1.6; }
+  .action-bar-left .en { font-size: 11px; display: block; margin-top: 2px; }
+  .action-bar-right { display: flex; gap: 8px; }
+  .save-btn { background: var(--success); color: #fff; padding: 9px 22px; border-radius: 8px; border: none; font-size: 13px; font-weight: 700; cursor: pointer; transition: all 0.2s; }
+  .save-btn:hover { background: #16a34a; }
+
+  /* Toast */
+  .toast {
+    position: fixed; bottom: 24px; right: 24px; z-index: 999;
+    background: #1a2332; color: #fff; padding: 12px 22px; border-radius: 10px;
+    font-size: 14px; box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+    transform: translateY(100px); opacity: 0; transition: all 0.35s;
+    pointer-events: none;
+  }
+  .toast.show { transform: translateY(0); opacity: 1; }
+  .toast.success { background: #15803d; }
+  .toast.error { background: #dc2626; }
+
+  /* Confirm dialog */
+  .confirm-overlay {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 300;
+    display: none; align-items: center; justify-content: center;
+  }
+  .confirm-overlay.show { display: flex; }
+  .confirm-box {
+    background: #fff; border-radius: 14px; padding: 28px 28px 22px; width: 360px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.2); text-align: center;
+  }
+  .confirm-box h3 { font-size: 16px; margin-bottom: 4px; }
+  .confirm-box h3 .en { font-size: 11px; font-weight: 400; color: var(--text-light); display: block; }
+  .confirm-box p { font-size: 13px; color: var(--text-light); margin-bottom: 4px; }
+  .confirm-box p .en { font-size: 11px; display: block; margin-bottom: 16px; }
+  .confirm-btns { display: flex; gap: 10px; }
+  .confirm-btns button { flex: 1; padding: 10px; border-radius: 8px; border: none; font-size: 14px; font-weight: 600; cursor: pointer; }
+  .confirm-cancel { background: var(--bg); color: var(--text-light); }
+  .confirm-ok { background: var(--danger); color: #fff; }
+
+  /* Sidebar tabs */
+  .sidebar-tabs {
+    display: flex; border-bottom: 1px solid var(--border);
+  }
+  .s-tab {
+    flex: 1; padding: 10px 0; text-align: center; font-size: 12px; font-weight: 700;
+    cursor: pointer; color: var(--text-light); border-bottom: 3px solid transparent;
+    transition: all 0.2s;
+  }
+  .s-tab:hover { color: var(--text); }
+  .s-tab.active { color: var(--primary); border-bottom-color: var(--primary); }
+
+  /* Video management */
+  .vm-header {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 20px; flex-wrap: wrap; gap: 10px;
+  }
+  .vm-header h2 { font-size: 20px; font-weight: 800; }
+  .vm-tabs {
+    display: flex; gap: 6px; margin-bottom: 16px; flex-wrap: wrap;
+  }
+  .vm-tab {
+    padding: 8px 18px; border-radius: 8px; font-size: 12px; font-weight: 700;
+    cursor: pointer; border: 1.5px solid var(--border); background: var(--card-bg);
+    color: var(--text-light); transition: all 0.2s;
+  }
+  .vm-tab:hover { background: var(--bg); }
+  .vm-tab.active { border-color: var(--primary); color: var(--primary); background: #eef3fb; }
+  .vm-tab .en { font-size: 10px; font-weight: 400; opacity: 0.7; display: block; }
+  .vm-count {
+    display: inline-block; background: rgba(0,0,0,0.08); padding: 0 6px;
+    border-radius: 10px; font-size: 11px; margin-left: 4px;
+  }
+
+  .vm-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 14px;
+  }
+  .vm-card {
+    background: var(--card-bg); border-radius: var(--radius); box-shadow: var(--shadow);
+    overflow: hidden; border: 1.5px solid transparent; transition: all 0.2s;
+  }
+  .vm-card:hover { border-color: var(--primary-light); transform: translateY(-2px); }
+  .vm-thumb {
+    width: 100%; height: 130px; background: #1a1a2e; display: flex;
+    align-items: center; justify-content: center; position: relative; overflow: hidden;
+  }
+  .vm-thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .vm-thumb .play-overlay {
+    position: absolute; inset: 0; display: flex; align-items: center;
+    justify-content: center; background: rgba(0,0,0,0.3);
+  }
+  .vm-thumb .play-icon {
+    width: 40px; height: 40px; border-radius: 50%; background: rgba(26,58,107,0.8);
+    color: #fff; font-size: 16px; display: flex; align-items: center;
+    justify-content: center;
+  }
+  .vm-no-thumb {
+    width: 100%; height: 100%; display: flex; align-items: center;
+    justify-content: center; color: rgba(255,255,255,0.4); font-size: 12px; text-align: center; padding: 10px;
+  }
+  .vm-info { padding: 10px 12px; }
+  .vm-name {
+    font-size: 12px; font-weight: 600; word-break: break-all; line-height: 1.4;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .vm-meta { font-size: 11px; color: var(--text-light); margin-top: 4px; }
+  .vm-actions { padding: 6px 12px 10px; display: flex; gap: 5px; flex-wrap: wrap; }
+
+  /* Upload zone */
+  .vm-upload-zone {
+    border: 2px dashed var(--border); border-radius: var(--radius);
+    padding: 30px; text-align: center; cursor: pointer; transition: all 0.2s;
+    background: var(--card-bg); margin-bottom: 16px;
+  }
+  .vm-upload-zone:hover, .vm-upload-zone.drag-over {
+    border-color: var(--primary); background: #eef3fb;
+  }
+  .vm-upload-zone input { display: none; }
+
+  /* Rename modal */
+  .rename-input {
+    width: 100%; padding: 10px 12px; border: 1.5px solid var(--border);
+    border-radius: 8px; font-size: 14px; outline: none; margin: 10px 0;
+  }
+  .rename-input:focus { border-color: var(--primary); }
+
+  /* Thumb selector */
+  .thumb-selector {
+    display: flex; align-items: center; gap: 8px; margin: 8px 0;
+  }
+  .thumb-selector label { font-size: 12px; color: var(--text-light); }
+  .thumb-selector input {
+    width: 70px; padding: 4px 8px; border: 1px solid var(--border);
+    border-radius: 5px; font-size: 12px;
+  }
+
+  /* Toast */
+  .toast-progress {
+    height: 3px; background: rgba(255,255,255,0.3); position: absolute;
+    bottom: 0; left: 0; border-radius: 0 0 10px 10px; transition: width 0.1s linear;
+  }
+  .toast-inner {
+    position: relative; overflow: hidden;
+  }
+</style>
+</head>
+<body>
+
+<!-- Auth Screen -->
+<div class="auth-screen" id="authScreen">
+  <div class="auth-card">
+    <div class="auth-logo">SL</div>
+    <h2>管理后台登录<span class="en">Admin Panel Login</span></h2>
+    <p>请输入管理员密码以访问图纸修改功能<span class="en">Enter admin password to access drawing management</span></p>
+    <div class="auth-error" id="authError">密码错误，请重试<span class="en">Incorrect password, please try again</span></div>
+    <input type="password" class="auth-input" id="authPw" placeholder="• • • • • • • •" 
+      onkeydown="if(event.key==='Enter')doLogin()">
+    <button class="auth-btn" onclick="doLogin()">🔐 登录管理后台 / Login</button>
+    <a href="index.html" class="back-link">← 返回查看页面 / Back to Viewer</a>
+  </div>
+</div>
+
+<!-- Admin UI -->
+<div class="admin-ui" id="adminUI">
+  <div class="header">
+    <div class="header-left">
+      <div class="header-logo">SL</div>
+      <div>
+        <div class="header-title">管理后台 — 图纸 & 视频管理<span class="en">Admin Panel · Drawing & Video</span></div>
+        <div class="header-sub">SONLY Injection Molding Machine Admin Console</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <a href="index.html" class="hbtn">← 返回查看器 Back to Viewer</a>
+      <button class="hbtn" onclick="doLogout()">退出登录 Logout</button>
+    </div>
+  </div>
+
+  <div class="admin-main">
+    <div class="admin-sidebar">
+      <div class="sidebar-tabs">
+        <div class="s-tab active" id="tabModels" onclick="switchAdminTab('models')">📋 型号</div>
+        <div class="s-tab" id="tabVideos" onclick="switchAdminTab('videos')">🎬 视频</div>
+      </div>
+
+      <!-- 模型管理面板 -->
+      <div id="modelsPanel">
+        <div class="sidebar-search">
+          <input type="text" class="s-input" placeholder="搜索型号 / Search..." oninput="filterAdminList(this.value)">
+        </div>
+        <div class="admin-model-list" id="adminModelList"></div>
+      </div>
+
+      <!-- 视频管理面板（默认隐藏） -->
+      <div id="videosPanel" style="display:none; flex:1; overflow-y:auto; padding:10px">
+        <div class="vm-tabs" id="vmCategoryTabs"></div>
+        <div style="margin-bottom:10px">
+          <button class="mini-btn mini-btn-primary" style="width:100%" onclick="document.getElementById('vmFileInput').click()">
+            📤 上传视频到当前分类 / Upload Video
+          </button>
+          <input type="file" id="vmFileInput" accept="video/*" style="display:none"
+            onchange="handleVideoUpload(this)">
+        </div>
+        <div class="vm-grid" id="vmVideoGrid"></div>
+        <div id="vmEmptyState" style="display:none;text-align:center;padding:40px;color:var(--text-light)">
+          <div style="font-size:40px;margin-bottom:10px">🎬</div>
+          <p>此分类暂无视频<br><span style="font-size:12px">No videos in this category</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="admin-content" id="adminContent">
+      <!-- 欢迎页（模型模式） -->
+      <div class="admin-welcome" id="adminWelcome">
+        <div style="font-size:56px;margin-bottom:20px;opacity:0.3">⚙</div>
+        <h2>管理后台<span class="en">Admin Panel</span></h2>
+        <p>从左侧选择型号，修改图纸文件关联和技术参数<br><span class="en">Select a model on the left to edit drawings and specifications</span></p>
+        <div style="margin-top:24px;padding:16px;background:#eef3fb;border-radius:10px;text-align:left;max-width:400px">
+          <div style="font-size:13px;font-weight:700;margin-bottom:6px">💡 提示 / Tips</div>
+          <div style="font-size:12px;color:var(--text-light);line-height:1.7">
+            • 切换左侧标签页可进入 <strong>视频管理</strong> 模块<br>
+            • Switch left tab to access <strong>Video Management</strong>
+          </div>
+        </div>
+      </div>
+      <div class="edit-panel" id="editPanel"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<!-- Confirm Dialog -->
+<div class="confirm-overlay" id="confirmOverlay">
+  <div class="confirm-box">
+    <h3 id="confirmTitle">确认操作<span class="en" id="confirmTitleEn">Confirm Action</span></h3>
+    <p id="confirmMsg">确定要执行此操作吗？<span class="en" id="confirmMsgEn">Are you sure you want to proceed?</span></p>
+    <div class="confirm-btns">
+      <button class="confirm-cancel" onclick="closeConfirm()">取消 Cancel</button>
+      <button class="confirm-ok" id="confirmOk">确认 Confirm</button>
+    </div>
+  </div>
+</div>
+
+<!-- Rename Video Modal -->
+<div class="confirm-overlay" id="renameOverlay">
+  <div class="confirm-box" style="width:400px">
+    <h3>🔄 重命名视频<span class="en">Rename Video</span></h3>
+    <p style="font-size:12px;color:var(--text-light);margin-bottom:4px">输入新的文件名（保留扩展名）<br><span style="font-size:11px">Enter new filename (keep the extension)</span></p>
+    <p id="renameOldName" style="font-size:12px;color:var(--text-light);margin-bottom:6px"></p>
+    <input type="text" class="rename-input" id="renameInput" placeholder="new_filename.mp4">
+    <div class="confirm-btns">
+      <button class="confirm-cancel" onclick="closeRename()">取消 Cancel</button>
+      <button class="confirm-ok" id="renameOkBtn" style="background:var(--primary)">确认重命名 Confirm</button>
+    </div>
+  </div>
+</div>
+
+<!-- Thumbnail Modal -->
+<div class="confirm-overlay" id="thumbOverlay">
+  <div class="confirm-box" style="width:400px">
+    <h3>🖼 重新生成封面<span class="en">Regenerate Thumbnail</span></h3>
+    <p style="font-size:12px;color:var(--text-light);margin-bottom:8px">选择截取视频的时间点（秒）<br><span style="font-size:11px">Choose timestamp in seconds</span></p>
+    <div class="thumb-selector">
+      <label>截取时间 / Timestamp (s):</label>
+      <input type="number" id="thumbTimestamp" value="5" min="0" step="1" style="width:80px">
+      <span style="font-size:11px;color:var(--text-light)">留空或0自动选取</span>
+    </div>
+    <div id="thumbPreview" style="margin:10px 0;text-align:center"></div>
+    <div class="confirm-btns">
+      <button class="confirm-cancel" onclick="closeThumb()">取消 Cancel</button>
+      <button class="confirm-ok" id="thumbOkBtn" style="background:var(--success)">✅ 生成封面 Generate</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const ADMIN_PASSWORD = 'SONLY123';
+let machineData = {};
+let currentModel = null;
+let confirmCallback = null;
+let editedData = {};
+
+// Auth
+function doLogin() {
+  const pw = document.getElementById('authPw').value;
+  if (pw === ADMIN_PASSWORD) {
+    document.getElementById('authScreen').style.display = 'none';
+    document.getElementById('adminUI').classList.add('show');
+    loadData();
+  } else {
+    document.getElementById('authError').style.display = 'block';
+    document.getElementById('authPw').value = '';
+    document.getElementById('authPw').focus();
+  }
+}
+
+function doLogout() {
+  showConfirm('退出登录 / Logout', '确定要退出管理后台吗？/ Confirm logout?', () => {
+    window.location.href = 'index.html';
+  });
+}
+
+document.getElementById('authPw').addEventListener('keydown', e => {
+  if (e.key === 'Enter') doLogin();
+});
+
+// Load data
+function loadData() {
+  fetch('data.json?t=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      machineData = JSON.parse(JSON.stringify(data));
+      editedData = JSON.parse(JSON.stringify(data));
+      renderAdminList();
+    });
+}
+
+function filterAdminList(q) {
+  renderAdminList(q.toLowerCase());
+}
+
+function renderAdminList(q = '') {
+  const list = document.getElementById('adminModelList');
+  list.innerHTML = '';
+  Object.values(editedData).forEach(m => {
+    if (q && !m.sheet.toLowerCase().includes(q)) return;
+    const isF9 = m.series === 'F9';
+    const div = document.createElement('div');
+    div.className = 'amodel-item' + (currentModel === m.sheet ? ' active' : '');
+    div.onclick = () => selectAdminModel(m.sheet);
+    div.innerHTML = `
+      <span class="abadge ${isF9 ? 'f9-badge' : 'uts-badge'}">${isF9 ? 'F9' : 'UTS'}</span>
+      <span>${m.sheet}</span>
+    `;
+    list.appendChild(div);
+  });
+}
+
+function selectAdminModel(sheet) {
+  currentModel = sheet;
+  renderAdminList();
+  renderEditPanel(editedData[sheet]);
+  document.getElementById('adminWelcome').style.display = 'none';
+  const ep = document.getElementById('editPanel');
+  ep.className = 'edit-panel show';
+}
+
+function renderEditPanel(m) {
+  const isF9 = m.series === 'F9';
+  const headCls = isF9 ? 'f9head' : '';
+  const pdfs = m.pdfs || {};
+  
+  let specRows = '';
+  (m.specs || []).forEach((s, i) => {
+    if (s.is_section) {
+      specRows += `<tr>
+        <td colspan="10" style="padding:6px 12px;background:#f0f4f8">
+          <span class="section-tag">▸ ${s.section}</span>
+        </td>
+      </tr>`;
+    } else {
+      const vals = (s.values || []).map((v, j) =>
+        `<td><input class="edit-input" value="${v}" 
+          onchange="updateSpec('${m.sheet}',${i},${j},this.value)" 
+          placeholder="—"></td>`
+      ).join('');
+      specRows += `<tr>
+        <td><input class="edit-input" value="${s.spec}" 
+          onchange="updateSpecName('${m.sheet}',${i},this.value)"></td>
+        <td><input class="edit-input" value="${s.unit||''}" 
+          onchange="updateSpecUnit('${m.sheet}',${i},this.value)" style="width:70px"></td>
+        ${vals}
+      </tr>`;
+    }
+  });
+  
+  const colHeaders = m.col_labels.map(c => `<th>值(Value) — ${c}</th>`).join('');
+  
+  document.getElementById('editPanel').innerHTML = `
+    <div class="panel-header">
+      <div>
+        <div class="panel-title">${m.sheet}</div>
+        <div class="panel-sub">国际认可型号 / Intl. Model: ${m.intl_model || 'N/A'} &nbsp;|&nbsp; ${m.series} Series</div>
+      </div>
+      <div>
+        <span style="font-size:12px;color:var(--text-light)">国际型号 / Intl. Model:</span>
+        <input class="edit-input" style="display:inline-block;width:110px;border:1.5px solid var(--border);background:#f0f4f8;margin-left:6px"
+          value="${m.intl_model||''}" onchange="updateIntlModel('${m.sheet}',this.value)" placeholder="输入型号...">
+      </div>
+    </div>
+
+    <!-- Action bar -->
+    <div class="action-bar">
+      <div class="action-bar-left">
+        💡 修改后点击"保存更改"，下载新版 data.json 替换网站目录中的同名文件
+        <span class="en">After editing, click "Save Changes" to download updated data.json and replace it in the website folder</span>
+      </div>
+      <div class="action-bar-right">
+        <button class="mini-btn mini-btn-outline" onclick="resetModel('${m.sheet}')">↺ 重置 Reset</button>
+        <button class="save-btn" onclick="saveChanges()">💾 保存更改 Save Changes</button>
+      </div>
+    </div>
+
+    <!-- PDF Section -->
+    <div class="section-card">
+      <div class="section-head ${headCls}">📄 图纸文件管理 <span class="en">Drawing File Management</span></div>
+      <div class="section-body">
+        <div class="pdf-edit-row">
+          <div class="pdf-edit-item">
+            <label>外形图 / Dimension Drawing</label>
+            <div class="pdf-filename">
+              <span>📐</span>
+              <span id="drawingName">${pdfs.drawing || '未设置 / Not set'}</span>
+            </div>
+            <div class="pdf-actions">
+              ${pdfs.drawing ? `<button class="mini-btn mini-btn-outline" onclick="previewPDF('pdfs/${pdfs.drawing}')">👁 预览 Preview</button>` : ''}
+              <button class="mini-btn mini-btn-primary" onclick="showUpload('drawing','${m.sheet}')">📂 更换 Replace</button>
+              ${pdfs.drawing ? `<button class="mini-btn mini-btn-danger" onclick="clearPDF('${m.sheet}','drawing')">🗑 清除 Clear</button>` : ''}
+            </div>
+            <div class="upload-zone" id="upload_drawing">
+              <label style="cursor:pointer;display:block">
+                <div style="font-size:28px;margin-bottom:6px">📥</div>
+                <div>点击或拖拽 PDF 文件到此处<br><span style="font-size:11px;opacity:0.8">Click or drag a PDF file here</span></div>
+                <div style="font-size:11px;margin-top:4px;opacity:0.7">将自动更新文件名引用 / Filename reference will be updated automatically</div>
+                <input type="file" accept=".pdf" onchange="handleFileUpload(this,'drawing','${m.sheet}')">
+              </label>
+            </div>
+            <div style="font-size:11px;color:var(--text-light);margin-top:4px">
+              手动输入文件名 / Manual filename:
+              <input class="edit-input" id="drawingInput" value="${pdfs.drawing||''}" 
+                style="display:inline-block;width:140px;border:1.5px solid var(--border);background:#f0f4f8;margin-left:4px"
+                onchange="updatePdfName('${m.sheet}','drawing',this.value)" placeholder="xxx.pdf">
+            </div>
+          </div>
+          <div class="pdf-edit-item">
+            <label>模板图纸 / Template Drawing</label>
+            <div class="pdf-filename">
+              <span>📋</span>
+              <span id="outlineName">${pdfs.outline || '未设置 / Not set'}</span>
+            </div>
+            <div class="pdf-actions">
+              ${pdfs.outline ? `<button class="mini-btn mini-btn-outline" onclick="previewPDF('pdfs/${pdfs.outline}')">👁 预览 Preview</button>` : ''}
+              <button class="mini-btn mini-btn-primary" onclick="showUpload('outline','${m.sheet}')">📂 更换 Replace</button>
+              ${pdfs.outline ? `<button class="mini-btn mini-btn-danger" onclick="clearPDF('${m.sheet}','outline')">🗑 清除 Clear</button>` : ''}
+            </div>
+            <div class="upload-zone" id="upload_outline">
+              <label style="cursor:pointer;display:block">
+                <div style="font-size:28px;margin-bottom:6px">📥</div>
+                <div>点击或拖拽 PDF 文件到此处<br><span style="font-size:11px;opacity:0.8">Click or drag a PDF file here</span></div>
+                <div style="font-size:11px;margin-top:4px;opacity:0.7">将自动更新文件名引用 / Filename reference will be updated automatically</div>
+                <input type="file" accept=".pdf" onchange="handleFileUpload(this,'outline','${m.sheet}')">
+              </label>
+            </div>
+            <div style="font-size:11px;color:var(--text-light);margin-top:4px">
+              手动输入文件名 / Manual filename:
+              <input class="edit-input" id="outlineInput" value="${pdfs.outline||''}" 
+                style="display:inline-block;width:140px;border:1.5px solid var(--border);background:#f0f4f8;margin-left:4px"
+                onchange="updatePdfName('${m.sheet}','outline',this.value)" placeholder="xxx.pdf">
+            </div>
+          </div>
+        </div>
+        <p style="font-size:12px;color:var(--text-light);margin-top:8px">
+          ⚠️ 新上传的 PDF 文件需手动复制到 <code>pdfs/</code> 文件夹，修改文件名引用后点击"保存更改"即可生效。<br>
+          <span style="opacity:0.8">New PDF files must be manually copied to the <code>pdfs/</code> folder. After updating the filename reference, click "Save Changes" to apply.</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Spec edit table -->
+    <div class="section-card">
+      <div class="section-head ${headCls}">📊 技术参数编辑 <span class="en">Specification Editing</span></div>
+      <div class="section-body" style="padding:0;overflow-x:auto">
+        <table class="spec-edit-table">
+          <thead>
+            <tr>
+              <th style="min-width:200px">规格名称 / Parameter Name</th>
+              <th style="min-width:60px">单位 / Unit</th>
+              ${colHeaders}
+            </tr>
+          </thead>
+          <tbody id="specEditBody">${specRows}</tbody>
+        </table>
+      </div>
+    </div>
+  `;
+  
+  // Drag over support
+  ['drawing','outline'].forEach(type => {
+    const zone = document.getElementById('upload_' + type);
+    if (zone) {
+      zone.addEventListener('dragover', e => { e.preventDefault(); zone.classList.add('drag-over'); });
+      zone.addEventListener('dragleave', () => zone.classList.remove('drag-over'));
+      zone.addEventListener('drop', e => {
+        e.preventDefault();
+        zone.classList.remove('drag-over');
+        const file = e.dataTransfer.files[0];
+        if (file && file.name.endsWith('.pdf')) {
+          processFileUpload(file, type, m.sheet);
+        }
+      });
+    }
+  });
+}
+
+function showUpload(type, sheet) {
+  const zone = document.getElementById('upload_' + type);
+  zone.classList.toggle('show');
+}
+
+function handleFileUpload(input, type, sheet) {
+  const file = input.files[0];
+  if (file) processFileUpload(file, type, sheet);
+}
+
+function processFileUpload(file, type, sheet) {
+  const filename = file.name;
+  updatePdfName(sheet, type, filename);
+  document.getElementById(type === 'drawing' ? 'drawingName' : 'outlineName').textContent = filename;
+  document.getElementById(type === 'drawing' ? 'drawingInput' : 'outlineInput').value = filename;
+  showToast('✅ 文件引用已更新 / Ref updated: ' + filename + ' — 请将文件放到 pdfs/ 目录 / Place file in pdfs/ folder', 'success');
+}
+
+function updatePdfName(sheet, type, name) {
+  if (!editedData[sheet].pdfs) editedData[sheet].pdfs = {};
+  editedData[sheet].pdfs[type] = name.trim();
+  document.getElementById(type === 'drawing' ? 'drawingName' : 'outlineName').textContent = name.trim() || '未设置 / Not set';
+}
+
+function clearPDF(sheet, type) {
+  showConfirm('清除文件引用 / Clear Reference', '确定要清除此图纸文件引用吗？不会删除实际文件。/ This will not delete the actual file.', () => {
+    if (!editedData[sheet].pdfs) editedData[sheet].pdfs = {};
+    editedData[sheet].pdfs[type] = '';
+    document.getElementById(type === 'drawing' ? 'drawingName' : 'outlineName').textContent = '未设置 / Not set';
+    document.getElementById(type === 'drawing' ? 'drawingInput' : 'outlineInput').value = '';
+    showToast('已清除文件引用 / Reference cleared', 'success');
+  });
+}
+
+function previewPDF(path) {
+  window.open(path, '_blank');
+}
+
+function updateSpec(sheet, specIdx, valIdx, val) {
+  if (editedData[sheet] && editedData[sheet].specs[specIdx]) {
+    editedData[sheet].specs[specIdx].values[valIdx] = val;
+  }
+}
+
+function updateSpecName(sheet, specIdx, val) {
+  if (editedData[sheet] && editedData[sheet].specs[specIdx]) {
+    editedData[sheet].specs[specIdx].spec = val;
+  }
+}
+
+function updateSpecUnit(sheet, specIdx, val) {
+  if (editedData[sheet] && editedData[sheet].specs[specIdx]) {
+    editedData[sheet].specs[specIdx].unit = val;
+  }
+}
+
+function updateIntlModel(sheet, val) {
+  if (editedData[sheet]) editedData[sheet].intl_model = val;
+}
+
+function resetModel(sheet) {
+  showConfirm('重置型号数据 / Reset Model Data', '确定要重置 ' + sheet + ' 的所有修改吗？/ Reset all changes for this model?', () => {
+    editedData[sheet] = JSON.parse(JSON.stringify(machineData[sheet]));
+    renderEditPanel(editedData[sheet]);
+    showToast('已重置 / Reset complete', 'success');
+  });
+}
+
+function saveChanges() {
+  const jsonStr = JSON.stringify(editedData, null, 2);
+  const blob = new Blob([jsonStr], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'data.json';
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast('✅ data.json 已下载，请替换网站目录中的同名文件 / Replace data.json in the website folder', 'success');
+  machineData = JSON.parse(JSON.stringify(editedData));
+}
+
+setTimeout(() => document.getElementById('authPw').focus(), 100);
+
+// ══════════════════════════════════════════════
+// 视频管理模块 / Video Management
+// ══════════════════════════════════════════════
+
+const VM_CATEGORIES = [
+  { id: 'machine', zh: '机器空跑', en: 'Machine Run', icon: '⚙' },
+  { id: 'trial',   zh: '试模视频', en: 'Trial Videos', icon: '🎯' },
+  { id: 'promo',   zh: '工厂宣传', en: 'Factory Promo', icon: '🏭' },
+  { id: 'cases',   zh: '客户案例', en: 'Customer Cases', icon: '🌍' },
+];
+let vmCurrentCategory = 'machine';
+let vmVideos = {};  // { category: [ {name, path, thumb, duration, size_mb}, ... ] }
+
+function switchAdminTab(tab) {
+  document.getElementById('tabModels').className = 's-tab' + (tab === 'models' ? ' active' : '');
+  document.getElementById('tabVideos').className = 's-tab' + (tab === 'videos' ? ' active' : '');
+  document.getElementById('modelsPanel').style.display = tab === 'models' ? '' : 'none';
+  document.getElementById('videosPanel').style.display = tab === 'videos' ? '' : 'none';
+  document.getElementById('adminContent').style.display = tab === 'videos' ? 'none' : '';
+
+  if (tab === 'videos' && Object.keys(vmVideos).length === 0) {
+    loadVideoList();
+  }
+}
+
+function renderVmCategoryTabs() {
+  const el = document.getElementById('vmCategoryTabs');
+  el.innerHTML = VM_CATEGORIES.map(c => `
+    <button class="vm-tab${vmCurrentCategory === c.id ? ' active' : ''}"
+      onclick="switchVmCategory('${c.id}')"
+      id="vmTab_${c.id}">
+      ${c.icon} ${c.zh}
+      <span class="en">${c.en}</span>
+      <span class="vm-count" id="vmCount_${c.id}">${(vmVideos[c.id] || []).length}</span>
+    </button>
+  `).join('');
+}
+
+function switchVmCategory(cat) {
+  vmCurrentCategory = cat;
+  renderVmCategoryTabs();
+  renderVmGrid();
+}
+
+function loadVideoList() {
+  fetch('/api/videos')
+    .then(r => r.json())
+    .then(data => {
+      vmVideos = data.categories || {};
+      renderVmCategoryTabs();
+      renderVmGrid();
+    })
+    .catch(e => showToast('加载视频列表失败: ' + e.message, 'error'));
+}
+
+function renderVmGrid() {
+  const grid = document.getElementById('vmVideoGrid');
+  const empty = document.getElementById('vmEmptyState');
+  const items = vmVideos[vmCurrentCategory] || [];
+
+  // Update count badges
+  VM_CATEGORIES.forEach(c => {
+    const badge = document.getElementById('vmCount_' + c.id);
+    if (badge) badge.textContent = (vmVideos[c.id] || []).length;
+  });
+
+  if (items.length === 0) {
+    grid.innerHTML = '';
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+
+  grid.innerHTML = items.map(v => `
+    <div class="vm-card" id="vmCard_${btoa(unescape(encodeURIComponent(v.path))).replace(/=/g,'')}">
+      <div class="vm-thumb" onclick="previewVideo('${v.path.replace(/'/g, "\\'")}')">
+        ${v.thumb
+          ? `<img src="${v.thumb}?t=${Date.now()}" alt="thumbnail" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+             <div class="play-overlay" style="display:none"><div class="play-icon">▶</div></div>`
+          : `<div class="vm-no-thumb">🎬<br>${v.name}<br><span style="font-size:10px">无封面</span></div>
+             <div class="play-overlay"><div class="play-icon">▶</div></div>`
+        }
+      </div>
+      <div class="vm-info">
+        <div class="vm-name" title="${v.name}">${v.name}</div>
+        <div class="vm-meta">
+          ⏱ ${fmtDur(v.duration)} &nbsp; 📦 ${v.size_mb} MB
+        </div>
+      </div>
+      <div class="vm-actions">
+        <button class="mini-btn mini-btn-primary" onclick="previewVideo('${v.path.replace(/'/g, "\\'")}')" title="预览">▶</button>
+        <button class="mini-btn mini-btn-outline" onclick="openRename('${v.path.replace(/'/g, "\\'")}', '${v.name.replace(/'/g, "\\'")}')" title="重命名">✏</button>
+        <button class="mini-btn mini-btn-outline" onclick="openThumb('${v.path.replace(/'/g, "\\'")}', '${v.duration}')" title="生成封面">🖼</button>
+        <button class="mini-btn mini-btn-danger" onclick="deleteVideo('${v.path.replace(/'/g, "\\'")}')" title="删除">🗑</button>
+      </div>
+    </div>
+  `).join('');
+}
+
+function fmtDur(s) {
+  if (!s || s <= 0) return '--:--';
+  const m = Math.floor(s / 60);
+  const sec = Math.round(s % 60);
+  return `${m}:${sec.toString().padStart(2, '0')}`;
+}
+
+function previewVideo(path) {
+  window.open(path, '_blank');
+}
+
+// ── Upload ──
+function handleVideoUpload(input) {
+  const file = input.files[0];
+  if (!file) return;
+  const ext = file.name.split('.').pop().toLowerCase();
+  const allowed = ['mp4','mov','avi','webm','mkv'];
+  if (!allowed.includes(ext)) {
+    showToast('不支持的视频格式: .' + ext, 'error');
+    input.value = '';
+    return;
+  }
+
+  showToast('⏳ 正在上传视频...', '');
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    const base64 = e.target.result.split(',')[1];
+    fetch('/api/video/upload', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        filename: file.name,
+        category: vmCurrentCategory,
+        data: base64,
+      })
+    })
+    .then(r => r.json())
+    .then(res => {
+      if (res.success) {
+        // Add to local list
+        if (!vmVideos[vmCurrentCategory]) vmVideos[vmCurrentCategory] = [];
+        vmVideos[vmCurrentCategory].push({
+          name: file.name,
+          path: res.path,
+          thumb: res.thumb,
+          duration: res.duration,
+          size_mb: res.size_mb,
+          category: vmCurrentCategory,
+        });
+        renderVmCategoryTabs();
+        renderVmGrid();
+        // Update data.json if model videos changed
+        autoUpdateDataJson(vmCurrentCategory, res.path, 'add');
+        showToast(`✅ 上传成功: ${file.name}`, 'success');
+      } else {
+        showToast('❌ 上传失败: ' + res.error, 'error');
+      }
+    })
+    .catch(e => showToast('上传失败: ' + e.message, 'error'));
+    input.value = '';
+  };
+  reader.readAsDataURL(file);
+}
+
+// ── Delete ──
+function deleteVideo(path) {
+  const name = path.split('/').pop();
+  showConfirm(
+    '🗑 删除视频 / Delete Video',
+    `确定删除 "${name}" 吗？此操作不可撤销。\nThis cannot be undone.`,
+    () => {
+      showToast('⏳ 删除中...', '');
+      fetch('/api/video/delete', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ path })
+      })
+      .then(r => r.json())
+      .then(res => {
+        if (res.success) {
+          // Remove from local list
+          const cat = getCategoryFromPath(path);
+          if (vmVideos[cat]) {
+            vmVideos[cat] = vmVideos[cat].filter(v => v.path !== path);
+          }
+          renderVmCategoryTabs();
+          renderVmGrid();
+          autoUpdateDataJson(cat, path, 'remove');
+          showToast(`✅ 已删除: ${name}`, 'success');
+        } else {
+          showToast('❌ 删除失败: ' + res.error, 'error');
+        }
+      })
+      .catch(e => showToast('删除失败: ' + e.message, 'error'));
+    }
+  );
+}
+
+function getCategoryFromPath(path) {
+  // videos/machine/F9/xxx.mp4 -> machine
+  const parts = path.replace('videos/', '').split('/');
+  return parts[0] || 'promo';
+}
+
+// ── Rename ──
+let renameTargetPath = '';
+let renameTargetOld = '';
+
+function openRename(path, oldName) {
+  renameTargetPath = path;
+  renameTargetOld = oldName;
+  document.getElementById('renameOldName').textContent = '当前: ' + oldName;
+  document.getElementById('renameInput').value = oldName;
+  document.getElementById('renameOverlay').classList.add('show');
+  setTimeout(() => document.getElementById('renameInput').focus(), 100);
+}
+
+function closeRename() {
+  document.getElementById('renameOverlay').classList.remove('show');
+}
+
+document.getElementById('renameInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') doRename();
+});
+
+document.getElementById('renameOkBtn').onclick = doRename;
+
+function doRename() {
+  const newName = document.getElementById('renameInput').value.trim();
+  if (!newName) { showToast('文件名不能为空', 'error'); return; }
+  if (newName === renameTargetOld) { closeRename(); return; }
+
+  closeRename();
+  showToast('⏳ 重命名中...', '');
+
+  fetch('/api/video/rename', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ path: renameTargetPath, newName })
+  })
+  .then(r => r.json())
+  .then(res => {
+    if (res.success) {
+      // Update local list
+      const cat = getCategoryFromPath(renameTargetPath);
+      if (vmVideos[cat]) {
+        const idx = vmVideos[cat].findIndex(v => v.path === renameTargetPath);
+        if (idx >= 0) {
+          vmVideos[cat][idx].name = newName;
+          vmVideos[cat][idx].path = res.newPath;
+          vmVideos[cat][idx].thumb = res.newThumb;
+        }
+      }
+      renderVmGrid();
+      showToast(`✅ 已重命名为: ${newName}`, 'success');
+    } else {
+      showToast('❌ 重命名失败: ' + res.error, 'error');
+    }
+  })
+  .catch(e => showToast('重命名失败: ' + e.message, 'error'));
+}
+
+document.getElementById('renameOverlay').addEventListener('click', e => {
+  if (e.target === document.getElementById('renameOverlay')) closeRename();
+});
+
+// ── Thumbnail ──
+let thumbTargetPath = '';
+
+function openThumb(path, duration) {
+  thumbTargetPath = path;
+  document.getElementById('thumbTimestamp').value = Math.min(5, Math.round(duration * 0.25));
+  document.getElementById('thumbPreview').innerHTML = `
+    <video src="${path}" style="max-width:200px;max-height:120px;border-radius:6px" muted preload="metadata"></video>
+  `;
+  document.getElementById('thumbOverlay').classList.add('show');
+}
+
+function closeThumb() {
+  document.getElementById('thumbOverlay').classList.remove('show');
+}
+
+document.getElementById('thumbOkBtn').onclick = generateThumb;
+
+function generateThumb() {
+  const ts = parseFloat(document.getElementById('thumbTimestamp').value) || 0;
+  closeThumb();
+  showToast('⏳ 正在生成封面（请稍候）...', '');
+
+  fetch('/api/video/thumbnail', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ path: thumbTargetPath, timestamp: ts })
+  })
+  .then(r => r.json())
+  .then(res => {
+    if (res.success) {
+      // Update local thumbnail
+      const cat = getCategoryFromPath(thumbTargetPath);
+      if (vmVideos[cat]) {
+        const idx = vmVideos[cat].findIndex(v => v.path === thumbTargetPath);
+        if (idx >= 0) vmVideos[cat][idx].thumb = res.thumb + '?t=' + Date.now();
+      }
+      renderVmGrid();
+      showToast('✅ 封面生成成功！', 'success');
+    } else {
+      showToast('❌ 生成失败: ' + res.error, 'error');
+    }
+  })
+  .catch(e => showToast('生成失败: ' + e.message, 'error'));
+}
+
+document.getElementById('thumbOverlay').addEventListener('click', e => {
+  if (e.target === document.getElementById('thumbOverlay')) closeThumb();
+});
+
+// ── Auto-update data.json ──
+function autoUpdateDataJson(category, path, action) {
+  // This is informational - data.json video paths are managed separately
+  // For now, we just update the local cache
+}
+
+// ── Toast progress bar ──
+function showToast(msg, type) {
+  const t = document.getElementById('toast');
+  t.innerHTML = `<div class="toast-inner">${msg}</div>`;
+  t.className = 'toast show' + (type ? ' ' + type : '');
+  clearTimeout(window._toastTimer);
+  window._toastTimer = setTimeout(() => t.className = 'toast', 4000);
+}
+
+// ── Confirm dialog (updated) ──
+function showConfirm(title, msg, cb) {
+  document.getElementById('confirmTitle').textContent = title;
+  document.getElementById('confirmMsg').innerHTML = msg.replace(/\n/g, '<br>');
+  window._confirmCallback = cb;
+  document.getElementById('confirmOverlay').classList.add('show');
+}
+
+function closeConfirm() {
+  document.getElementById('confirmOverlay').classList.remove('show');
+  window._confirmCallback = null;
+}
+
+document.getElementById('confirmOk').onclick = function() {
+  closeConfirm();
+  if (window._confirmCallback) window._confirmCallback();
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,9538 @@
+{
+  "U98TS": {
+    "model": "U98TS",
+    "sheet": "U98TS",
+    "series": "UTS",
+    "intl_model": "310",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "32",
+          "35",
+          "38"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "24.1",
+          "22",
+          "20.3"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "133.7",
+          "160",
+          "182.4"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "232.1",
+          "194",
+          "164.6"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "210",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "122",
+          "146",
+          "172"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "4.303",
+          "5.15",
+          "6.067"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "980",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "325",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "405*365",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "360",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "120",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "100",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "38",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "4+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "125",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "9",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "10",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "125",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "2.8",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "4.1*1.11*1.8",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "11",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "98TS-M.pdf",
+      "outline": "98TS-W.pdf"
+    },
+    "num_part": "98",
+    "videos": {
+      "machine": [],
+      "trial": [
+        "videos/trial/U98TS-CAP 4 cavities.mp4"
+      ]
+    }
+  },
+  "U110TSF9": {
+    "model": "U110TSF9",
+    "sheet": "U110TSF9",
+    "series": "F9",
+    "intl_model": "300",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "32",
+          "35",
+          "38"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "24.1",
+          "22",
+          "20.3"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "134.2",
+          "160.6",
+          "189"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "222.1",
+          "185.7",
+          "157.5"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "122.2",
+          "146.1",
+          "172.3"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION RATE",
+        "unit": "mm/s",
+        "values": [
+          "140",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "4.3",
+          "5.1",
+          "6"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "270",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "1100",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "325",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "405*360",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "360",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "120",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "100",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "41",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "4 +1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "125",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "17.5",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "10",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "TANK VOLUME",
+        "unit": "L",
+        "values": [
+          "125",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "3.1",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OVERALL DIMENSION",
+        "unit": "m",
+        "values": [
+          "4.2*1.11*1.83",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER POWER",
+        "unit": "Kw",
+        "values": [
+          "15",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "110-1M.pdf",
+      "outline": "110-1W.pdf"
+    },
+    "num_part": "110",
+    "videos": {
+      "machine": [
+        "videos/machine/F9/U110TSF9.mp4"
+      ],
+      "trial": []
+    }
+  },
+  "U140TS": {
+    "model": "U140TS",
+    "sheet": "U140TS",
+    "series": "UTS",
+    "intl_model": "430",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "38",
+          "40",
+          "45"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.2",
+          "22",
+          "19.6"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "214.8",
+          "238",
+          "301.2"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "199.4",
+          "180",
+          "142.2"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "200",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "195",
+          "217",
+          "274"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "6.878",
+          "7.654",
+          "9.665"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "1400",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "385",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "460*425",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "440",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "140",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "115",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "38",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "4+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "125",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "13",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "12.7",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "170",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "3.9",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "4.7*1.18*1.85",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "18",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "140TS-M.pdf",
+      "outline": "140TS-W.pdf"
+    },
+    "num_part": "140",
+    "videos": {
+      "machine": [
+        "videos/machine/UTS/U140TS-2.mp4",
+        "videos/machine/UTS/U140TS.mp4"
+      ],
+      "trial": [
+        "videos/trial/U140TS-CAP.mp4",
+        "videos/trial/U140TS-CAP2.mp4",
+        "videos/trial/U140TS-Oil ring.mp4"
+      ]
+    }
+  },
+  "U140TSF9": {
+    "model": "U140TSF9",
+    "sheet": "U140TSF9",
+    "series": "F9",
+    "intl_model": "420",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "38",
+          "40",
+          "45"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.2",
+          "22",
+          "19.6"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "215.4",
+          "238.6",
+          "302"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "193.3",
+          "174.5",
+          "137.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "196",
+          "217.2",
+          "274.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION RATE",
+        "unit": "mm/s",
+        "values": [
+          "180",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "6.878",
+          "7.654",
+          "9.665"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "250",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "1400",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "380",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "460*420",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "440",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "140",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "115",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "41",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "4+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "125",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "17.5",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "12.7",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "TANK VOLUME",
+        "unit": "L",
+        "values": [
+          "170",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "4.2",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OVERALL DIMENSION",
+        "unit": "m",
+        "values": [
+          "4.8*1.35*1.85",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER POWER",
+        "unit": "Kw",
+        "values": [
+          "30",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "140-1M.pdf",
+      "outline": "140-1W.pdf"
+    },
+    "num_part": "140"
+  },
+  "U150TSF9": {
+    "model": "U150TSF9",
+    "sheet": "U150TSF9",
+    "series": "F9",
+    "intl_model": "420",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "38",
+          "40",
+          "45"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.2",
+          "22",
+          "19.6"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "215.4",
+          "238.6",
+          "302"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "193.3",
+          "174.5",
+          "137.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "196",
+          "217.2",
+          "274.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION RATE",
+        "unit": "mm/s",
+        "values": [
+          "180",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "6.878",
+          "7.654",
+          "9.665"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "250",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "1500",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "385",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "460*420",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "440",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "140",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "115",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "41",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "4+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "125",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "17.5",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "12.7",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "TANK VOLUME",
+        "unit": "L",
+        "values": [
+          "170",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "4.2",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OVERALL DIMENSION",
+        "unit": "m",
+        "values": [
+          "4.7*1.18*1.85",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER POWER",
+        "unit": "Kw",
+        "values": [
+          "30",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "150-1M.pdf",
+      "outline": "150-1W.pdf"
+    },
+    "num_part": "150"
+  },
+  "U168TS": {
+    "model": "U168TS",
+    "sheet": "U168TS",
+    "series": "UTS",
+    "intl_model": "600",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "40",
+          "45",
+          "48"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "24.8",
+          "22",
+          "20.6"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "313.7",
+          "397",
+          "451.7"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "191.1",
+          "151",
+          "132.7"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "208",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "285",
+          "361",
+          "411"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "10.053",
+          "12.734",
+          "14.498"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "1680",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "430",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "510*472",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "500",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "170",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "130",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "38",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "4+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "160",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "15",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "13.2",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "210",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "5",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "5.25*1.26*2.02",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "22",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "168TS-M.pdf",
+      "outline": "168TS-W.pdf"
+    },
+    "num_part": "168",
+    "videos": {
+      "machine": [
+        "videos/machine/UTS/U168TS-1.mp4",
+        "videos/machine/UTS/U168TS-2.mp4"
+      ],
+      "trial": []
+    }
+  },
+  "U180TSF9": {
+    "model": "U180TSF9",
+    "sheet": "U180TSF9",
+    "series": "F9",
+    "intl_model": "660",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "40",
+          "45",
+          "48"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "24.8",
+          "22",
+          "20.6"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "314",
+          "397.4",
+          "452.2"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "210",
+          "165.9",
+          "145.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "285.7",
+          "361.6",
+          "411.5"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION RATE",
+        "unit": "mm/s",
+        "values": [
+          "180",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "10",
+          "12.7",
+          "14.4"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "250",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "1800",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "430",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "510*467",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "500",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "170",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "130",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "41",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "4+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "160",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "17.5",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "13.2",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "TANK VOLUME",
+        "unit": "L",
+        "values": [
+          "210",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "5.3",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OVERALL DIMENSION",
+        "unit": "m",
+        "values": [
+          "5.2*1.26*2.03",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER POWER",
+        "unit": "Kw",
+        "values": [
+          "37",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "180-1M.pdf",
+      "outline": "180-1W.pdf"
+    },
+    "num_part": "180"
+  },
+  "U218TS": {
+    "model": "U218TS",
+    "sheet": "U218TS",
+    "series": "UTS",
+    "intl_model": "1067",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "45",
+          "50",
+          "55"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "24.4",
+          "22",
+          "20"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "460",
+          "569",
+          "688"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "227.5",
+          "184.3",
+          "152.3"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "180",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "419",
+          "518",
+          "627"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "14.78",
+          "18.27",
+          "22.11"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "2180",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "520",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "565*525",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "530",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "150",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "70",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "8+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "160",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "18.5",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "16.3",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "230",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "7",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "5.94*1.36*2.2",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "22",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "218TS-M.pdf",
+      "outline": "218TS-W.pdf"
+    },
+    "num_part": "218",
+    "videos": {
+      "machine": [],
+      "trial": [
+        "videos/trial/U218TS-Spoon.mp4",
+        "videos/trial/U218TS-普通盖子 24腔.mov",
+        "videos/trial/U218TS-桶装水盖子 12腔.mov"
+      ]
+    }
+  },
+  "U230TSF9": {
+    "model": "U230TSF9",
+    "sheet": "U230TSF9",
+    "series": "F9",
+    "intl_model": "1070",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "45",
+          "50",
+          "55"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "24.4",
+          "22",
+          "20"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "468.2",
+          "578.9",
+          "700.5"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "226.8",
+          "183.7",
+          "151.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "426.7",
+          "526.8",
+          "637.5"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION RATE",
+        "unit": "mm/s",
+        "values": [
+          "140",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "15",
+          "18.5",
+          "22.4"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "230",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "2300",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "520",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "565*520",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "530",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "150",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "77",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "8+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "160",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "17.5",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "16.3",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "TANK VOLUME",
+        "unit": "L",
+        "values": [
+          "230",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "7.4",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OVERALL DIMENSION",
+        "unit": "m",
+        "values": [
+          "5.9*1.36*2.15",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER POWER",
+        "unit": "Kw",
+        "values": [
+          "37",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "230-1M.pdf",
+      "outline": "230-1W.pdf"
+    },
+    "num_part": "230",
+    "videos": {
+      "machine": [
+        "videos/machine/F9/U230TSF9.mp4"
+      ],
+      "trial": [
+        "videos/trial/U230TSF9-FRUIT BAWL.mp4",
+        "videos/trial/U230TSF9-PLASTIC PREFROM.mp4"
+      ]
+    }
+  },
+  "U265TS": {
+    "model": "U265TS",
+    "sheet": "U265TS",
+    "series": "UTS",
+    "intl_model": "1209",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "55",
+          "60",
+          "65"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "24",
+          "22",
+          "20.3"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "655.4",
+          "780",
+          "915.4"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "184.5",
+          "155",
+          "132.1"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "190",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "596",
+          "710",
+          "833"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "21.023",
+          "25.045",
+          "29.383"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "2650",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "590",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "620*570",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "600",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "150",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "70",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "160",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "22",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "24.7",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "300",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "9",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "6.45*1.44*2.4",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "30",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "265TS-M.pdf",
+      "outline": "265TS-W.pdf"
+    },
+    "num_part": "265",
+    "videos": {
+      "machine": [
+        "videos/machine/UTS/U265TS.mp4"
+      ],
+      "trial": [
+        "videos/trial/U265TS-BASKET.mp4",
+        "videos/trial/U265TS-PP FITTINGS 8cavities.mp4",
+        "videos/trial/U265TS-PP cup.mp4",
+        "videos/trial/U265TSH-BOX with robot.mp4"
+      ]
+    }
+  },
+  "U285TSF9": {
+    "model": "U285TSF9",
+    "sheet": "U285TSF9",
+    "series": "F9",
+    "intl_model": "1280",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "55",
+          "60",
+          "65"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "24",
+          "22",
+          "20.3"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "655.4",
+          "780",
+          "915.4"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "194.3",
+          "163.3",
+          "139.2"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "596.4",
+          "709.8",
+          "833"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION RATE",
+        "unit": "mm/s",
+        "values": [
+          "140",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "20.9",
+          "24.9",
+          "29.2"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "250",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "2850",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "590",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "620*565",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "600",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "150",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "77",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "160",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "17.5",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "21.5",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "TANK VOLUME",
+        "unit": "L",
+        "values": [
+          "300",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "9.4",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OVERALL DIMENSION",
+        "unit": "m",
+        "values": [
+          "6.7*1.44*2.4",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER POWER",
+        "unit": "Kw",
+        "values": [
+          "45",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "285-1M.pdf",
+      "outline": "285-1W.pdf"
+    },
+    "num_part": "285",
+    "videos": {
+      "machine": [],
+      "trial": [
+        "videos/trial/U285TSF9-PETRI DISH.mp4",
+        "videos/trial/U285TSF9-PLASTIC PREFROM.mp4",
+        "videos/trial/U285TSF9-螺纹杯.mp4"
+      ]
+    }
+  },
+  "U320TS": {
+    "model": "U320TS",
+    "sheet": "U320TS",
+    "series": "UTS",
+    "intl_model": "1906",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "60",
+          "65",
+          "70"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "22.8",
+          "21",
+          "19.5"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "1003",
+          "1178",
+          "1366"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "190",
+          "162",
+          "139.6"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "220",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "913",
+          "1072",
+          "1243"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "21",
+          "37.8",
+          "43.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "3200",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "660",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "705*585",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "660",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "210",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "220",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "90",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "160",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "24.7",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "400",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "9.8",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "7.1*1.85*2.46",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "45",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "320TS-M.pdf",
+      "outline": "320TS-W.pdf"
+    },
+    "num_part": "320"
+  },
+  "U350TSF9": {
+    "model": "U350TSF9",
+    "sheet": "U350TSF9",
+    "series": "F9",
+    "intl_model": "2020",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "60",
+          "65",
+          "70",
+          "75"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.8",
+          "22",
+          "20.4",
+          "19.1"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "1003.2",
+          "1177.4",
+          "1365.5",
+          "1567.5"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "201.2",
+          "171.5",
+          "147.9",
+          "128.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "912.9",
+          "1071.4",
+          "1242.6",
+          "1426.5"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION RATE",
+        "unit": "mm/s",
+        "values": [
+          "140",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "32",
+          "37.6",
+          "43.6",
+          "50.1"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "SCREW SPEED",
+        "is_section": true
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "3500",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "660",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "710*655",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "640",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "150",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "77",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "160",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "17.5",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "23.5",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "TANK VOLUME",
+        "unit": "L",
+        "values": [
+          "440",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "11",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OVERALL DIMENSION",
+        "unit": "m",
+        "values": [
+          "7*1.9*2.42",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER POWER",
+        "unit": "Kw",
+        "values": [
+          "55",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "350-1M.pdf",
+      "outline": "350-1W.pdf"
+    },
+    "num_part": "350",
+    "videos": {
+      "machine": [
+        "videos/machine/F9/U350TSF9.mp4"
+      ],
+      "trial": []
+    }
+  },
+  "U368TS": {
+    "model": "U368TS",
+    "sheet": "U368TS",
+    "series": "UTS",
+    "intl_model": "2140",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "65",
+          "70",
+          "75"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.7",
+          "22",
+          "20.5"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "1177.8",
+          "1366",
+          "1568.1"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "181.7",
+          "156.7",
+          "136.5"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "144",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "1072",
+          "1243",
+          "1472"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "37.814",
+          "43.846",
+          "50.336"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "3680",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "660",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "705*590",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "660",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "210",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "170",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "90",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "160",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "37",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "27.9",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "600",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "13",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "7.45*1.9*2.46",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "45",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "368TS-M.pdf",
+      "outline": "368TS-W.pdf"
+    },
+    "num_part": "368",
+    "videos": {
+      "machine": [
+        "videos/machine/UTS/U368TS.mp4"
+      ],
+      "trial": [
+        "videos/trial/U368TS HIGH SPEED-SPOON.mp4",
+        "videos/trial/U368TS-BUCKET.mp4",
+        "videos/trial/U368TS-Bucket cover.mp4",
+        "videos/trial/U368TS-HANGER.mp4",
+        "videos/trial/U368TS-PREFROM.mp4",
+        "videos/trial/U368TS3S-MIXED THREE COLOR MACHINE.mp4"
+      ]
+    }
+  },
+  "U388TSF9": {
+    "model": "U388TSF9",
+    "sheet": "U388TSF9",
+    "series": "F9",
+    "intl_model": "2840",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "65",
+          "70",
+          "75",
+          "80"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.7",
+          "22",
+          "20.5",
+          "19.1"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "1247.1",
+          "1446.3",
+          "1660.3",
+          "1889"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "198.8",
+          "171.4",
+          "149.3",
+          "131.3"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "1134.8",
+          "1316.1",
+          "1510.9",
+          "1719"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION RATE",
+        "unit": "mm/s",
+        "values": [
+          "150",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "39.8",
+          "46.2",
+          "53",
+          "60.3"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "246",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "3880",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "710",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "760*685",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "675",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "280",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "170",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "99",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "17.5",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "27",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "TANK VOLUME",
+        "unit": "L",
+        "values": [
+          "700",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "13.5",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OVERALL DIMENSION",
+        "unit": "m",
+        "values": [
+          "7.58*2*2.45",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER POWER",
+        "unit": "Kw",
+        "values": [
+          "65",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "388-1M.pdf",
+      "outline": "388-1W.pdf"
+    },
+    "num_part": "388",
+    "videos": {
+      "machine": [],
+      "trial": [
+        "videos/trial/U388TSF9-PET Preform.mp4"
+      ]
+    }
+  },
+  "U400TS": {
+    "model": "U400TS",
+    "sheet": "U400TS",
+    "series": "UTS",
+    "intl_model": "2590",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "70",
+          "75",
+          "80"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.6",
+          "22",
+          "20.6"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "1446.9",
+          "1661",
+          "1889.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "179.1",
+          "156",
+          "137.1"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "144",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "1317",
+          "1512",
+          "1720"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "46.456",
+          "53.334",
+          "60.671"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "4000",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "710",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "760*690",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "675",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "280",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "170",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "90",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "37",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "33.6",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "700",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "16",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "7.67*1.95*2.53",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "45",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "400TS-M.pdf",
+      "outline": "400TS-W.pdf"
+    },
+    "num_part": "400",
+    "videos": {
+      "machine": [
+        "videos/machine/UTS/U400TS-2.mp4",
+        "videos/machine/UTS/U400TS-3.mp4",
+        "videos/machine/UTS/U400TS.mp4"
+      ],
+      "trial": [
+        "videos/trial/U400TS-PET PREFROM 32cavity.mov",
+        "videos/trial/U400TS-PET preform one cavity.mp4",
+        "videos/trial/U400TS-PLASTIC CRATE.mp4",
+        "videos/trial/U400TS-PREFORM 48 cavities.mp4"
+      ]
+    }
+  },
+  "U438TS": {
+    "model": "U438TS",
+    "sheet": "U438TS",
+    "series": "UTS",
+    "intl_model": "2690",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "75",
+          "80",
+          "85"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.4",
+          "22",
+          "20.7"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "1727.1",
+          "1965",
+          "2218.3"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "155.9",
+          "137",
+          "121.4"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "194",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "1572",
+          "1788",
+          "2019"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "55.451",
+          "63.07",
+          "71.218"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "4380",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "780",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "785*695",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "780",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "280",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "170",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "90",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "45",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "33.6",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "750",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "18",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "8.3*2.0*2.53",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "30+45",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "438TS-M.pdf",
+      "outline": "438TS-W.pdf"
+    },
+    "num_part": "438",
+    "videos": {
+      "machine": [
+        "videos/machine/UTS/U438TS-1.mp4",
+        "videos/machine/UTS/U438TS-2.mp4"
+      ],
+      "trial": [
+        "videos/trial/U438TS-PLASTIC BASKET.mp4"
+      ]
+    }
+  },
+  "U470TSF9": {
+    "model": "U470TSF9",
+    "sheet": "U470TSF9",
+    "series": "F9",
+    "intl_model": "3060",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "70",
+          "75",
+          "80",
+          "85"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.5",
+          "22",
+          "20.6",
+          "19.4"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "1504",
+          "1726.5",
+          "1964.4",
+          "2217.6"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "185.6",
+          "161.7",
+          "142.1",
+          "125.9"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "1368.6",
+          "1571.1",
+          "1787.6",
+          "2018"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION RATE",
+        "unit": "mm/s",
+        "values": [
+          "167",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "48",
+          "55.1",
+          "62.7",
+          "70.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "250",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "4700",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "780",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "810*765",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "780",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "280",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "170",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "99",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "17.5",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "30.5",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "TANK VOLUME",
+        "unit": "L",
+        "values": [
+          "750",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "18.5",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OVERALL DIMENSION",
+        "unit": "m",
+        "values": [
+          "8.2*2*2.53",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER POWER",
+        "unit": "Kw",
+        "values": [
+          "37+55",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "470-1M.pdf",
+      "outline": "470-1W.pdf"
+    },
+    "num_part": "470",
+    "videos": {
+      "machine": [
+        "videos/machine/F9/U470TSF9-1.mp4",
+        "videos/machine/F9/U470TSF9.mp4"
+      ],
+      "trial": [
+        "videos/trial/U470TSF9-BASKET.mp4"
+      ]
+    }
+  },
+  "U530TS": {
+    "model": "U530TS",
+    "sheet": "U530TS",
+    "series": "UTS",
+    "intl_model": "3300",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "80",
+          "85",
+          "90"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.4",
+          "22",
+          "20.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "1964.7",
+          "2218",
+          "2486.6"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "168",
+          "148.8",
+          "132.7"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "152",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "1788",
+          "2018",
+          "2263"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "63.07",
+          "71.183",
+          "79.825"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "5300",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "840",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "840*805",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "800",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "290",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "225",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "152",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "45",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "38.3",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "900",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "20",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "8.6*2.05*3.0",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "30+45",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "530TS-M.pdf",
+      "outline": "530TS-W.pdf"
+    },
+    "num_part": "530",
+    "videos": {
+      "machine": [
+        "videos/machine/UTS/U530TS.mp4"
+      ],
+      "trial": [
+        "videos/trial/U530TS-BUCKET.mp4"
+      ]
+    }
+  },
+  "U570TS F9": {
+    "model": "U570TSF9",
+    "sheet": "U570TS F9",
+    "series": "F9",
+    "intl_model": "3300",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "75",
+          "80",
+          "85",
+          "90"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.4",
+          "22",
+          "20.7",
+          "19.5"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "1726.5",
+          "1964.4",
+          "2217.6",
+          "2486.2"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "191.1",
+          "168",
+          "148.8",
+          "132.7"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "1571.1",
+          "1787.6",
+          "2018",
+          "2262.4"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION RATE",
+        "unit": "mm/s",
+        "values": [
+          "145",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "55.1",
+          "62.7",
+          "70.8",
+          "79.4"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "220",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "5700",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "840",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "870*800",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "800",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "290",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "225",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "167",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "17.5",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "33",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "TANK VOLUME",
+        "unit": "L",
+        "values": [
+          "900",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "20.5",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OVERALL DIMENSION",
+        "unit": "m",
+        "values": [
+          "8.6*2.15*2.8",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER POWER",
+        "unit": "Kw",
+        "values": [
+          "45+55",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "570-1M.pdf",
+      "outline": "570-1W.pdf"
+    },
+    "num_part": "570"
+  },
+  "U610TS": {
+    "model": "U610TS",
+    "sheet": "U610TS",
+    "series": "UTS",
+    "intl_model": "4260",
+    "col_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "85",
+          "90",
+          "95"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.4",
+          "22",
+          "20.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "2388",
+          "2678",
+          "2983"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "178.3",
+          "159",
+          "142.7"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "126",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "2174",
+          "2437",
+          "2715"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "76.686",
+          "85.963",
+          "95.769"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "6100",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "850",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "885*810",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "850",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "300",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "225",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "152",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "45",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "42",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "900",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "25",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "9.2*2.15*3.0",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "30+45",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "610TS-M.pdf",
+      "outline": "610TS-W.pdf"
+    },
+    "num_part": "610"
+  },
+  "U650TSF9": {
+    "model": "U650TSF9",
+    "sheet": "U650TSF9",
+    "series": "F9",
+    "intl_model": "4680",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "85",
+          "90",
+          "95",
+          "100"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "24",
+          "24",
+          "24",
+          "24"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "2563.6",
+          "2874",
+          "3202.3",
+          "3548.2"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "183",
+          "163",
+          "147",
+          "132"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "3000.2",
+          "3376.3",
+          "3747.4",
+          "4152.4"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION RATE",
+        "unit": "mm/s",
+        "values": [
+          "140",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "THEORETICAL SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "1025.91",
+          "119.18",
+          "132.28",
+          "146.58"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "185",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "6500",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "940",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "920X810",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "900",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "320",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "225",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "167",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "17.5",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "40",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "TANK VOLUME",
+        "unit": "L",
+        "values": [
+          "1000",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "5.5+18",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OVERALL DIMENSION",
+        "unit": "m",
+        "values": [
+          "4.8*2.2*2.6\n5.1*2.2*2.4",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER POWER",
+        "unit": "Kw",
+        "values": [
+          "45+55",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "650-1M.pdf",
+      "outline": "650-1W.pdf"
+    },
+    "num_part": "650",
+    "videos": {
+      "machine": [],
+      "trial": [
+        "videos/trial/U650TSF9-20L BUCKET.mp4"
+      ]
+    }
+  },
+  "U700TS": {
+    "model": "U700TS",
+    "sheet": "U700TS",
+    "series": "UTS",
+    "intl_model": "4966",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "85",
+          "90",
+          "95",
+          "100"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.3",
+          "22",
+          "20.8",
+          "19.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "2790",
+          "3128",
+          "3486",
+          "3862"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "178",
+          "159",
+          "143",
+          "120"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "126",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "2567",
+          "2846",
+          "3207",
+          "3553"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "90.547",
+          "100.388",
+          "113.122",
+          "125.326"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "7000",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "970",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "960*865",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "900",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "320",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "265",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "212",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "30+37",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "45",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "1200",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "6+23",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "4.8*2.2*3.1",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "37+45",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "700TS-M.pdf",
+      "outline": "700TS-W.pdf"
+    },
+    "num_part": "700"
+  },
+  "U680TS": {
+    "model": "U680TS",
+    "sheet": "U680TS",
+    "series": "UTS",
+    "intl_model": "4966",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "85",
+          "90",
+          "95",
+          "100"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.3",
+          "22",
+          "20.8",
+          "19.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "2790",
+          "3128",
+          "3486",
+          "3862"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "178",
+          "159",
+          "143",
+          "120"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "126",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "2567",
+          "2846",
+          "3207",
+          "3553"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "90.547",
+          "100.388",
+          "113.122",
+          "125.326"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "6800",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "970",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "960*865",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "900",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "320",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "265",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "212",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "200",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "30+37",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "45",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "1200",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "6+23",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "4.8*2.2*3.1",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "37+45",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "680TS-M.pdf",
+      "outline": "680TS-W.pdf"
+    },
+    "num_part": "680",
+    "videos": {
+      "machine": [],
+      "trial": [
+        "videos/trial/U680TS-BASKET.mp4",
+        "videos/trial/高速机试模视频/U680TS HIGH SPEED-38L FLOWER POT.mp4"
+      ]
+    }
+  },
+  "U800TS": {
+    "model": "U800TS",
+    "sheet": "U800TS",
+    "series": "UTS",
+    "intl_model": "4984",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "95",
+          "100",
+          "105",
+          "115"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.2",
+          "22",
+          "21",
+          "19.1"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "3138.5",
+          "3477.6",
+          "3834",
+          "4599.1"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "158.8",
+          "143.4",
+          "130",
+          "108.4"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "104",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "2887",
+          "3199",
+          "3527",
+          "4231"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "101.834",
+          "112.84",
+          "124.409",
+          "149.242"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "8000",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "1000",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "1050*945",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "1000",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "350",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "265",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "212",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "12+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "250",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "37+37",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "60",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "1200",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "9+26",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "4.7*2.3*3.1",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "45+45",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "800TS-M.pdf",
+      "outline": "800TS-W.pdf"
+    },
+    "num_part": "800",
+    "videos": {
+      "machine": [],
+      "trial": [
+        "videos/trial/U800TS-拉杆箱/U800TS-拉杆箱产品.mp4"
+      ]
+    }
+  },
+  "U1080TS": {
+    "model": "U1080TS",
+    "sheet": "U1080TS",
+    "series": "UTS",
+    "intl_model": "7798",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "100",
+          "110",
+          "120",
+          "130"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "24.2",
+          "22",
+          "20.2",
+          "18.6"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "4238",
+          "5129",
+          "6103",
+          "7163"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "184",
+          "152.2",
+          "127.8",
+          "109"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "105",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "3856",
+          "4667",
+          "5553",
+          "6518"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "136.052",
+          "164.624",
+          "195.947",
+          "229.951"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "10800",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "1220",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "1160*1115",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "1250",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "480",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "350",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "246",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "20+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "250",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "45+45",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "70",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "1400",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "11+36",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "5.1*2.4*3.3",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "45+55",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "1080TS-M.pdf",
+      "outline": "1080TS-W.pdf"
+    },
+    "num_part": "1080",
+    "videos": {
+      "machine": [
+        "videos/machine/UTS/U1080TS-2.mp4",
+        "videos/machine/UTS/U1080TS.mp4"
+      ],
+      "trial": [
+        "videos/trial/U1080TS-90L BIG BUCKET.mp4",
+        "videos/trial/U1080TS-CHAIR 2022.10.21/U1080TS-CHAIR 1.mp4",
+        "videos/trial/U1080TS-DUSTBIN.mp4",
+        "videos/trial/U1080TS-TABLE TOP.mp4",
+        "videos/trial/U1080TS-Table leg.mov"
+      ]
+    }
+  },
+  "U1200TS": {
+    "model": "U1200TS",
+    "sheet": "U1200TS",
+    "series": "UTS",
+    "intl_model": "8931",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "105",
+          "115",
+          "125",
+          "135"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "24",
+          "22",
+          "20.2",
+          "18.7"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "4673.5",
+          "5606.1",
+          "6623.4",
+          "7725.6"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "191.1",
+          "159.3",
+          "134.9",
+          "115.6"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "117",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "4300",
+          "5158",
+          "6094",
+          "7108"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "151.675",
+          "181.94",
+          "214.956",
+          "250.723"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "12000",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "1310",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "1250*1165",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "1300",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "530",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "350",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "246",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "20+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "250",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "45+55",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "82",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "1400",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "12+42",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "5.2*2.4*3.3",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "55+55",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "1200TS-M.pdf",
+      "outline": "1200TS-W.pdf"
+    },
+    "num_part": "1200"
+  },
+  "U1550TS": {
+    "model": "U1550TS",
+    "sheet": "U1550TS",
+    "series": "UTS",
+    "intl_model": "11573",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "110",
+          "120",
+          "130",
+          "140"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "24",
+          "22",
+          "20.3",
+          "18.9"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "5654",
+          "6729",
+          "7897",
+          "9158"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "204.7",
+          "172",
+          "146.6",
+          "126.4"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "96",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "5145",
+          "6123",
+          "7186",
+          "8335"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "181.485",
+          "215.98",
+          "253.4",
+          "294"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "15500",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "1400",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "1480*1300",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "1300",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "530",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "350",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "246",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "20+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "250",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "55+55",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "97",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "1600",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "18+47",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "6.9*2.5*3.7",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "45+45+45",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "1550TS-M.pdf",
+      "outline": "1550TS-W.pdf"
+    },
+    "num_part": "1550"
+  },
+  "U1850TS": {
+    "model": "U1850TS",
+    "sheet": "U1850TS",
+    "series": "UTS",
+    "intl_model": "14366",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "120",
+          "130",
+          "140",
+          "150"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.8",
+          "22",
+          "20.4",
+          "19.1"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "7476",
+          "8760",
+          "10159",
+          "11662"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "192.5",
+          "164",
+          "141.4",
+          "123.2"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "90",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "6792",
+          "7972",
+          "9245",
+          "10613"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "239.581",
+          "281.204",
+          "326.108",
+          "374.363"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "18500",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "1600",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "1655*1435",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "1500",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "680",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "400",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "363",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "28+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "250",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "45+45+45",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "118",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "2000",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "23+90",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "6.3*2.6*4.0",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "37+37+45+45",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "1850TS-M.pdf",
+      "outline": "1850TS-W.pdf"
+    },
+    "num_part": "1850",
+    "videos": {
+      "machine": [],
+      "trial": [
+        "videos/trial/U1850TS-WASHING MACHINE COVER.mp4",
+        "videos/trial/U1850TS-托盘试模.mp4"
+      ]
+    }
+  },
+  "U2000TS": {
+    "model": "U2000TS",
+    "sheet": "U2000TS",
+    "series": "UTS",
+    "intl_model": "18445",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "130",
+          "140",
+          "150",
+          "160"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.7",
+          "22",
+          "20.5",
+          "19.3"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "11281.6",
+          "13084",
+          "15019.9",
+          "17089.3"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "163.5",
+          "141",
+          "122.8",
+          "108"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "88",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "10266",
+          "11906",
+          "13668",
+          "15551"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "362.123",
+          "419.792",
+          "482.125",
+          "548.546"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "20000",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "1950",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "1710*1515",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "1500",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "680",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "400",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "363",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "28+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "315",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "45+55+55",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "130",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "2000",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "24+96",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "6.3*2.6*4.0",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "45*4",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "2000TS-M.pdf",
+      "outline": "2000TS-W.pdf"
+    },
+    "num_part": "2000"
+  },
+  "U2250TS": {
+    "model": "U2250TS",
+    "sheet": "U2250TS",
+    "series": "UTS",
+    "intl_model": "18445",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "140",
+          "150",
+          "160",
+          "170"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.7",
+          "22",
+          "20.5",
+          "19.3"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "14309",
+          "16426.1",
+          "18689.3",
+          "21098.4"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "169.8",
+          "147.9",
+          "130",
+          "115.2"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "60",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "13164",
+          "15112",
+          "17194",
+          "19411"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "464.689",
+          "533.454",
+          "606.948",
+          "685.208"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "22500",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "1910",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "1800*1580",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "1700",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "700",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "500",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "490",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "28+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "315",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "45+55+55",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "140",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "2500",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "26+115",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "8.5*3.2*4.1",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "45+45+55+55",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "2250TS-M.pdf",
+      "outline": "2250TS-W.pdf"
+    },
+    "num_part": "2250",
+    "videos": {
+      "machine": [],
+      "trial": [
+        "videos/trial/U2250TS-PALLET1.mp4",
+        "videos/trial/U2250TS-PALLET2.mp4",
+        "videos/trial/U2250TS-WATER PIPE.mp4"
+      ]
+    }
+  },
+  "U2500TS": {
+    "model": "U2500TS",
+    "sheet": "U2500TS",
+    "series": "UTS",
+    "intl_model": "27429",
+    "col_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "140",
+          "150",
+          "160",
+          "170"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.7",
+          "22",
+          "20.5",
+          "19.3"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "16455.3",
+          "18545.6",
+          "21100.8",
+          "23820.8"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "169.8",
+          "147.9",
+          "130",
+          "115.2"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "60",
+          "",
+          "",
+          ""
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "15139",
+          "17062",
+          "19413",
+          "21915"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "580.378",
+          "654.103",
+          "744.225",
+          "840.16"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "25000",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "1910",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "1900*1620",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "1700",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "700",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "500",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "490",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "28+1",
+          "",
+          "",
+          ""
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "315",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "45+55+55",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "150",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "3000",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "26+130",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "8.7*3.2*4.2",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "45+55+55+55",
+          "",
+          "",
+          ""
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "2500TS-M.pdf",
+      "outline": "2500TS-W.pdf"
+    },
+    "num_part": "2500"
+  },
+  "U2600TS": {
+    "model": "U2600TS",
+    "sheet": "U2600TS",
+    "series": "UTS",
+    "intl_model": "48105",
+    "col_labels": [
+      "A"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "170"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "23.9"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "26102"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "184.3"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "70"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "23753"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "837.863"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "26000"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "1870"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "1860*1710"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "1850"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "750"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "500"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "565"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "32+1"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "315"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "220"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "180"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "3800"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "43+133"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "9.5*3.3*4.2"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "55*4"
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "2600TS-M.pdf",
+      "outline": "2600TS-W.pdf"
+    },
+    "num_part": "2600"
+  },
+  "U2800TS": {
+    "model": "U2800TS",
+    "sheet": "U2800TS",
+    "series": "UTS",
+    "intl_model": "",
+    "col_labels": [
+      "A"
+    ],
+    "specs": [],
+    "pdfs": {
+      "drawing": "2800TS-M.pdf",
+      "outline": "2800TS-W.pdf"
+    },
+    "num_part": "2800"
+  },
+  "U3400TS(1)": {
+    "model": "U3400TS",
+    "sheet": "U3400TS(1)",
+    "series": "UTS",
+    "intl_model": "63000",
+    "col_labels": [
+      "A"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW DIAMETER",
+        "unit": "mm",
+        "values": [
+          "230"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "20"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "56991"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "140"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "45"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "52432"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "1845.597"
+        ],
+        "section": "INJECTION UNIT"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "34000"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "2020"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "2160*1800"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "1950"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "780"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "520"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "830"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "32+1"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "315"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "55+55+55+55"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "220"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "4800"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "230"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "11.1*3.4*5"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "55*5"
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "3400TS-M.pdf",
+      "outline": "3400TS-W.pdf"
+    },
+    "num_part": "3400"
+  },
+  "U3400TS(2)": {
+    "model": "U3400TS",
+    "sheet": "U3400TS(2)",
+    "series": "UTS",
+    "intl_model": "78400II",
+    "col_labels": [
+      "A"
+    ],
+    "specs": [
+      {
+        "section": "INJECTION UNIT",
+        "is_section": true
+      },
+      {
+        "section": "SCREW DIAMETER",
+        "is_section": true
+      },
+      {
+        "spec": "SCREW L/D RATIO",
+        "unit": "L/D",
+        "values": [
+          "22"
+        ],
+        "section": "SCREW DIAMETER"
+      },
+      {
+        "spec": "SHOT VOLUME",
+        "unit": "cm3",
+        "values": [
+          "56000"
+        ],
+        "section": "SCREW DIAMETER"
+      },
+      {
+        "spec": "INJECTION PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "140"
+        ],
+        "section": "SCREW DIAMETER"
+      },
+      {
+        "spec": "SCREW SPEED",
+        "unit": "rpm",
+        "values": [
+          "45"
+        ],
+        "section": "SCREW DIAMETER"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "g",
+        "values": [
+          "50960"
+        ],
+        "section": "SCREW DIAMETER"
+      },
+      {
+        "spec": "SHOT WEIGHT",
+        "unit": "oz",
+        "values": [
+          "1797.563"
+        ],
+        "section": "SCREW DIAMETER"
+      },
+      {
+        "section": "CLAMPING UNIT",
+        "is_section": true
+      },
+      {
+        "spec": "CLAMPING FORCE",
+        "unit": "Kn",
+        "values": [
+          "34000"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "TOGGLE STROKE",
+        "unit": "mm",
+        "values": [
+          "2020"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "SPACE BETWEEN TIE BARS",
+        "unit": "mm",
+        "values": [
+          "2160*1900"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MAX.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "1950"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "MIN.MOULD HEIGHT",
+        "unit": "mm",
+        "values": [
+          "780"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR STROKE",
+        "unit": "mm",
+        "values": [
+          "520"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR FORCE",
+        "unit": "Kn",
+        "values": [
+          "830"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "spec": "EJECTOR NUMBER",
+        "unit": "",
+        "values": [
+          "32+1"
+        ],
+        "section": "CLAMPING UNIT"
+      },
+      {
+        "section": "OTHERS",
+        "is_section": true
+      },
+      {
+        "spec": "DIE HOLE DIAMETER",
+        "unit": "mm",
+        "values": [
+          "315"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SYSTERM PRESSURE",
+        "unit": "Mpa",
+        "values": [
+          "16"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MOTOR POWER",
+        "unit": "Kw",
+        "values": [
+          "55+55+55+55"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "HEATING POWER",
+        "unit": "Kw",
+        "values": [
+          "220"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "OIL TANK CUBAGE",
+        "unit": "L",
+        "values": [
+          "5200"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "MACHINE WEIGHT",
+        "unit": "Ton",
+        "values": [
+          "230"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "BOUNDARY DIMENSION",
+        "unit": "m",
+        "values": [
+          "12*3.6*5.0"
+        ],
+        "section": "OTHERS"
+      },
+      {
+        "spec": "SERVO DRIVER CAPACITY",
+        "unit": "Kw",
+        "values": [
+          "55*6"
+        ],
+        "section": "OTHERS"
+      }
+    ],
+    "pdfs": {
+      "drawing": "3400TS-M.pdf",
+      "outline": "3400TS-W.pdf"
+    },
+    "num_part": "3400"
+  },
+  "_global": {
+    "promo_videos": [
+      "videos/promo/12.mp4",
+      "videos/promo/2250T machine assembly video.mp4",
+      "videos/promo/24.mp4",
+      "videos/promo/5218_raw.mp4",
+      "videos/promo/Customer introduction video.mp4",
+      "videos/promo/Factory 06.AVI",
+      "videos/promo/Factory aerial view.mp4",
+      "videos/promo/Loading machine video.mp4",
+      "videos/promo/ScreenRecording_08-19-2025 19-51-39_1.mp4",
+      "videos/promo/loading machine's daily.mp4",
+      "videos/promo/宣传视频1.mp4",
+      "videos/promo/宣传视频2.mp4",
+      "videos/promo/宣传视频3.mp4",
+      "videos/promo/机械手测试视频/U238TS-1.mp4",
+      "videos/promo/机械手测试视频/U238TS-2.mp4",
+      "videos/promo/机械手测试视频/U265TS-1.mp4",
+      "videos/promo/机械手测试视频/U265TS-2.mp4",
+      "videos/promo/机械手测试视频/U350TSF9-1.mp4",
+      "videos/promo/机械手测试视频/U350TSF9-2.mp4",
+      "videos/promo/机械手测试视频/U530TS-1.mp4",
+      "videos/promo/机械手测试视频/U530TS-2.mp4"
+    ],
+    "case_videos": [
+      "videos/cases/1550 2250土耳其行李箱工厂-1.mp4",
+      "videos/cases/1550 2250土耳其行李箱工厂-2.mp4",
+      "videos/cases/1550 2250土耳其行李箱工厂-3.mp4",
+      "videos/cases/388F9客户工厂生产瓶胚.mp4",
+      "videos/cases/国内780管接头.mp4",
+      "videos/cases/国内诸暨小机器管接头.mp4",
+      "videos/cases/沙特瓶胚工程师上门服务调试.mp4",
+      "videos/cases/沙特科里工厂车间展示.mp4",
+      "videos/cases/沙特阿里工厂机器维修.mp4",
+      "videos/cases/阿尔及利亚工厂 1.jpg",
+      "videos/cases/阿尔及利亚工厂 2.jpg",
+      "videos/cases/阿尔及利亚工厂 3.jpg",
+      "videos/cases/阿尔及利亚工厂 4.jpg",
+      "videos/cases/阿尔及利亚工厂 5.jpg",
+      "videos/cases/阿尔及利亚工厂 6.jpg",
+      "videos/cases/阿尔及利亚工厂 7.jpg",
+      "videos/cases/阿尔及利亚工厂 8.jpg",
+      "videos/cases/阿尔及利亚工厂试模 1.mp4",
+      "videos/cases/阿尔及利亚水壶客户1.mp4",
+      "videos/cases/阿尔及利亚水壶客户2.mp4",
+      "videos/cases/阿根廷1080客户卸货视频-有客户工厂名请注意.mp4",
+      "videos/cases/阿根廷1080客户工厂.jpg"
+    ]
+  }
+}
