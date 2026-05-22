@@ -529,7 +529,7 @@
     "num_part": "110",
     "videos": {
       "machine": [
-        "videos/machine/F9/U110TSF9.mp4"
+        "https://drive.google.com/file/d/13y9InkjoE9MoxWSeUkCq2_IyNoZY4loP/preview"
       ],
       "trial": [],
       "promo": [],
@@ -797,13 +797,13 @@
     "num_part": "140",
     "videos": {
       "machine": [
-        "videos/machine/UTS/U140TS-2.mp4",
-        "videos/machine/UTS/U140TS.mp4"
+        "https://drive.google.com/file/d/1wjJRL5HyQxCvbT8FyNH3D0-xF0Xfa7q9/preview",
+        "https://drive.google.com/file/d/11JXC8PZtIKERiHAUmZ0ewwysSlW4gDee/preview"
       ],
       "trial": [
-        "videos/trial/U140TS-CAP.mp4",
-        "videos/trial/U140TS-CAP2.mp4",
-        "videos/trial/U140TS-Oil ring.mp4"
+        "https://drive.google.com/file/d/1-vwHVlbIehTNBrPJZNxAzmJ8jajAnzZ8/preview",
+        "https://drive.google.com/file/d/1xyYPM25Ib9sxECJC4Pi2m50ynSkFhyfW/preview",
+        "https://drive.google.com/file/d/1HQWAffLNS9SPJTFxH_5ZKk6rQPRnzfXk/preview"
       ],
       "promo": [],
       "cases": []
@@ -1602,8 +1602,8 @@
     "num_part": "168",
     "videos": {
       "machine": [
-        "videos/machine/UTS/U168TS-1.mp4",
-        "videos/machine/UTS/U168TS-2.mp4"
+        "https://drive.google.com/file/d/1lXB0ugzpHS_26DVgTkGpDE2J7izBqZu4/preview",
+        "https://drive.google.com/file/d/1EbDnimTpBVwkxfwcxsCEw2BZPBdHeSuq/preview"
       ],
       "trial": [],
       "promo": [],
@@ -2138,9 +2138,9 @@
     "videos": {
       "machine": [],
       "trial": [
-        "videos/trial/U218TS-Spoon.mp4",
-        "videos/trial/U218TS-普通盖子 24腔.mov",
-        "videos/trial/U218TS-桶装水盖子 12腔.mov",
+        "https://drive.google.com/file/d/1m7-w9DitxeEoolodMHPsVGNQVTIxGMnB/preview",
+        "https://drive.google.com/file/d/18X8hzblkGgjZY63AHce1S1WbhgB6TFck/preview",
+        "https://drive.google.com/file/d/1SZwAXh5R0y4Cog13heZg06isAJPmCfGT/preview",
         "https://drive.google.com/file/d/1AkQsoDDj8rQgG-x4HD99RG7-fTqjWjhi/preview",
         "https://drive.google.com/file/d/1eGs_yHER9kn0nG3lCY8XsfjwnVYervis/preview"
       ],
@@ -2409,11 +2409,11 @@
     "num_part": "230",
     "videos": {
       "machine": [
-        "videos/machine/F9/U230TSF9.mp4"
+        "https://drive.google.com/file/d/10EOII4AXh3tG5_jtXQCOi5zozVVX14I5/preview"
       ],
       "trial": [
-        "videos/trial/U230TSF9-FRUIT BAWL.mp4",
-        "videos/trial/U230TSF9-PLASTIC PREFROM.mp4"
+        "https://drive.google.com/file/d/1f9n2WnFInVyAmfgcOo-A7K2i3f24yvwo/preview",
+        "https://drive.google.com/file/d/1wSLmk0yxEEHaHkyUo1a-P9Onsd2STQba/preview"
       ],
       "promo": [],
       "cases": []
@@ -2680,13 +2680,13 @@
     "num_part": "265",
     "videos": {
       "machine": [
-        "videos/machine/UTS/U265TS.mp4"
+        "https://drive.google.com/file/d/1wIfnrUqRfu-8rHzgwttAXR3Enq92OoEx/preview"
       ],
       "trial": [
         "https://drive.google.com/file/d/1uqI23HKLZ7kK0sVcCtnKcwOrq6NOIwwg/preview",
         "https://drive.google.com/file/d/1vbXPZhvaYSCfR20kE_3FTVD_P97yDoet/preview",
         "https://drive.google.com/file/d/1X3MEzWwyFT_tniGC9O8ddMWEIfnsEPOJ/preview",
-        "videos/trial/U265TSH-BOX with robot.mp4"
+        "https://drive.google.com/file/d/1gxQgZ5Qsz95N76zqTNrbXxibJR6hHhVM/preview"
       ],
       "promo": [],
       "cases": []
@@ -2954,9 +2954,9 @@
     "videos": {
       "machine": [],
       "trial": [
-        "videos/trial/U285TSF9-PETRI DISH.mp4",
-        "videos/trial/U285TSF9-PLASTIC PREFROM.mp4",
-        "videos/trial/U285TSF9-螺纹杯.mp4"
+        "https://drive.google.com/file/d/1mAMgDSWTLhgB_84x0H3QB3dKBUgVBH-8/preview",
+        "https://drive.google.com/file/d/1UEHK1kqTd5YpO4BhkJ5wVc2ER1sv-qiR/preview",
+        "https://drive.google.com/file/d/1elJeNDxgvbY4DWX7vNNMdy_VRY_2eYuF/preview"
       ],
       "promo": [],
       "cases": []
@@ -3496,7 +3496,7 @@
     "num_part": "350",
     "videos": {
       "machine": [
-        "videos/machine/F9/U350TSF9.mp4"
+        "https://drive.google.com/file/d/17iAtCK5gSJcslCZhy8F36OD3NUaFOXOg/preview"
       ],
       "trial": [],
       "promo": [],
@@ -3764,15 +3764,15 @@
     "num_part": "368",
     "videos": {
       "machine": [
-        "videos/machine/UTS/U368TS.mp4"
+        "https://drive.google.com/file/d/1i6aPq11SijoZQAKIeuk8-YKvBmps1mkS/preview"
       ],
       "trial": [
-        "videos/trial/U368TS HIGH SPEED-SPOON.mp4",
+        "https://drive.google.com/file/d/1jzXVDsJSNCrMmrc0lV0Z3rWq4E0aqKNz/preview",
         "https://drive.google.com/file/d/10zrv_IDps99vrPh6tm3ugPq6zd6aApBu/preview",
-        "videos/trial/U368TS-Bucket cover.mp4",
+        "https://drive.google.com/file/d/1pKGF_J-_cztc-HYSvNw-TuNmz7xVRXR4/preview",
         "https://drive.google.com/file/d/1zK1qDVjCpwLz-QlLyMX8LbKqGLb4igvG/preview",
-        "videos/trial/U368TS-PREFROM.mp4",
-        "videos/trial/U368TS3S-MIXED THREE COLOR MACHINE.mp4"
+        "https://drive.google.com/file/d/1mpnQQj-62X7f6AYYOi8aIZ3s97EDGKi1/preview",
+        "https://drive.google.com/file/d/1ffmRCYqP016nKc2wJMB1I6Xz1soh1YEd/preview"
       ],
       "promo": [],
       "cases": []
@@ -4064,7 +4064,7 @@
     "videos": {
       "machine": [],
       "trial": [
-        "videos/trial/U388TSF9-PET Preform.mp4"
+        "https://drive.google.com/file/d/1Srg2ZTO55djn096hycdONjt3m7SKdgC8/preview"
       ],
       "promo": [],
       "cases": []
@@ -4331,9 +4331,9 @@
     "num_part": "400",
     "videos": {
       "machine": [
-        "videos/machine/UTS/U400TS-2.mp4",
-        "videos/machine/UTS/U400TS-3.mp4",
-        "videos/machine/UTS/U400TS.mp4"
+        "https://drive.google.com/file/d/1xMCuuVcvrp_9QXZudmwpzj_jB7GsWw7X/preview",
+        "https://drive.google.com/file/d/1f-7QpdW3LuZe1VXo7vO517Iv57M8ac9a/preview",
+        "https://drive.google.com/file/d/1XgLAyFcpUXgEKtkx59ZwUoekRjqSbv8e/preview"
       ],
       "trial": [
         "https://drive.google.com/file/d/1xvNcHRTBtZqbIJYJ9PN_HeD-YIm7SpTJ/preview",
@@ -4606,11 +4606,11 @@
     "num_part": "438",
     "videos": {
       "machine": [
-        "videos/machine/UTS/U438TS-1.mp4",
-        "videos/machine/UTS/U438TS-2.mp4"
+        "https://drive.google.com/file/d/1-AyIleCntqb9Jpou-UEK90d62NHAFQIr/preview",
+        "https://drive.google.com/file/d/1tWBj6nn8S6x5wfe0ABpvvMcoKtPUjL97/preview"
       ],
       "trial": [
-        "videos/trial/U438TS-PLASTIC BASKET.mp4",
+        "https://drive.google.com/file/d/13o69XFWNCCvJolAcl7jX7UVh4xYL9hF3/preview",
         "https://drive.google.com/file/d/18hpdkb1wyZ6VtHKMUuTKBWHMMGM5LAw4/preview",
         "https://drive.google.com/file/d/1VKrPMGRNZ3xrHdPiEaDNrXsD7yrpP9bQ/preview"
       ],
@@ -4903,11 +4903,11 @@
     "num_part": "470",
     "videos": {
       "machine": [
-        "videos/machine/F9/U470TSF9-1.mp4",
-        "videos/machine/F9/U470TSF9.mp4"
+        "https://drive.google.com/file/d/1GuZ0i20xZ1Hh5eQHE1BvsVYNZJUeAxzD/preview",
+        "https://drive.google.com/file/d/1cfFm9Uo9b7jf3G0ertwINIj_5ADXP8JT/preview"
       ],
       "trial": [
-        "videos/trial/U470TSF9-BASKET.mp4"
+        "https://drive.google.com/file/d/1dCZSjz0Yg8iPpD4RtvwdURFx0VIdkb8F/preview"
       ],
       "promo": [],
       "cases": []
@@ -5174,7 +5174,7 @@
     "num_part": "530",
     "videos": {
       "machine": [
-        "videos/machine/UTS/U530TS.mp4"
+        "https://drive.google.com/file/d/1d_vUgBTNWslvSc5Y-hD0sMs7MsQZzvLt/preview"
       ],
       "trial": [
         "https://drive.google.com/file/d/1uYLV1QBHBILgHpDGZn7myUAwSaespiQs/preview",
@@ -6609,7 +6609,7 @@
       "machine": [],
       "trial": [
         "videos/trial/U680TS-BASKET.mp4",
-        "videos/trial/高速机试模视频/U680TS HIGH SPEED-38L FLOWER POT.mp4"
+        "https://drive.google.com/file/d/1nuoTH7cXG8PBZ-QXuun_Wl6_c7SPgTIW/preview"
       ],
       "promo": [],
       "cases": []
@@ -7194,8 +7194,8 @@
     "num_part": "1080",
     "videos": {
       "machine": [
-        "videos/machine/UTS/U1080TS-2.mp4",
-        "videos/machine/UTS/U1080TS.mp4"
+        "https://drive.google.com/file/d/1qQ0BQ7bO24xpAF5yB3-MbFd_UTuGpeud/preview",
+        "https://drive.google.com/file/d/1ij3Ig9QlvrX4L17U-LOCllKDkhxxXEey/preview"
       ],
       "trial": [
         "https://drive.google.com/file/d/1diCBpJNNRIQjfTjNmk2p0LUSKqipSRLy/preview",
