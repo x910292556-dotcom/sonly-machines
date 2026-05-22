@@ -261,8 +261,11 @@
     "videos": {
       "machine": [],
       "trial": [
-        "videos/trial/U98TS-CAP 4 cavities.mp4"
-      ]
+        "https://drive.google.com/file/d/1k7CDwJqXQXNPJ9Zx3-y3eK_pdyi_N29M/preview",
+        "https://drive.google.com/file/d/1vNVnPYOjPauG6tPLNO4qPuDkRkkkXiLW/preview"
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U110TSF9": {
@@ -528,7 +531,9 @@
       "machine": [
         "videos/machine/F9/U110TSF9.mp4"
       ],
-      "trial": []
+      "trial": [],
+      "promo": [],
+      "cases": []
     }
   },
   "U140TS": {
@@ -799,7 +804,9 @@
         "videos/trial/U140TS-CAP.mp4",
         "videos/trial/U140TS-CAP2.mp4",
         "videos/trial/U140TS-Oil ring.mp4"
-      ]
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U140TSF9": {
@@ -1060,7 +1067,13 @@
       "drawing": "140-1M.pdf",
       "outline": "140-1W.pdf"
     },
-    "num_part": "140"
+    "num_part": "140",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "U150TSF9": {
     "model": "U150TSF9",
@@ -1320,7 +1333,13 @@
       "drawing": "150-1M.pdf",
       "outline": "150-1W.pdf"
     },
-    "num_part": "150"
+    "num_part": "150",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "U168TS": {
     "model": "U168TS",
@@ -1586,7 +1605,9 @@
         "videos/machine/UTS/U168TS-1.mp4",
         "videos/machine/UTS/U168TS-2.mp4"
       ],
-      "trial": []
+      "trial": [],
+      "promo": [],
+      "cases": []
     }
   },
   "U180TSF9": {
@@ -1847,7 +1868,13 @@
       "drawing": "180-1M.pdf",
       "outline": "180-1W.pdf"
     },
-    "num_part": "180"
+    "num_part": "180",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "U218TS": {
     "model": "U218TS",
@@ -2113,8 +2140,12 @@
       "trial": [
         "videos/trial/U218TS-Spoon.mp4",
         "videos/trial/U218TS-普通盖子 24腔.mov",
-        "videos/trial/U218TS-桶装水盖子 12腔.mov"
-      ]
+        "videos/trial/U218TS-桶装水盖子 12腔.mov",
+        "https://drive.google.com/file/d/1AkQsoDDj8rQgG-x4HD99RG7-fTqjWjhi/preview",
+        "https://drive.google.com/file/d/1eGs_yHER9kn0nG3lCY8XsfjwnVYervis/preview"
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U230TSF9": {
@@ -2383,7 +2414,9 @@
       "trial": [
         "videos/trial/U230TSF9-FRUIT BAWL.mp4",
         "videos/trial/U230TSF9-PLASTIC PREFROM.mp4"
-      ]
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U265TS": {
@@ -2650,11 +2683,13 @@
         "videos/machine/UTS/U265TS.mp4"
       ],
       "trial": [
-        "videos/trial/U265TS-BASKET.mp4",
-        "videos/trial/U265TS-PP FITTINGS 8cavities.mp4",
-        "videos/trial/U265TS-PP cup.mp4",
+        "https://drive.google.com/file/d/1uqI23HKLZ7kK0sVcCtnKcwOrq6NOIwwg/preview",
+        "https://drive.google.com/file/d/1vbXPZhvaYSCfR20kE_3FTVD_P97yDoet/preview",
+        "https://drive.google.com/file/d/1X3MEzWwyFT_tniGC9O8ddMWEIfnsEPOJ/preview",
         "videos/trial/U265TSH-BOX with robot.mp4"
-      ]
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U285TSF9": {
@@ -2922,7 +2957,9 @@
         "videos/trial/U285TSF9-PETRI DISH.mp4",
         "videos/trial/U285TSF9-PLASTIC PREFROM.mp4",
         "videos/trial/U285TSF9-螺纹杯.mp4"
-      ]
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U320TS": {
@@ -3173,7 +3210,13 @@
       "drawing": "320TS-M.pdf",
       "outline": "320TS-W.pdf"
     },
-    "num_part": "320"
+    "num_part": "320",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "U350TSF9": {
     "model": "U350TSF9",
@@ -3455,7 +3498,9 @@
       "machine": [
         "videos/machine/F9/U350TSF9.mp4"
       ],
-      "trial": []
+      "trial": [],
+      "promo": [],
+      "cases": []
     }
   },
   "U368TS": {
@@ -3723,12 +3768,14 @@
       ],
       "trial": [
         "videos/trial/U368TS HIGH SPEED-SPOON.mp4",
-        "videos/trial/U368TS-BUCKET.mp4",
+        "https://drive.google.com/file/d/10zrv_IDps99vrPh6tm3ugPq6zd6aApBu/preview",
         "videos/trial/U368TS-Bucket cover.mp4",
-        "videos/trial/U368TS-HANGER.mp4",
+        "https://drive.google.com/file/d/1zK1qDVjCpwLz-QlLyMX8LbKqGLb4igvG/preview",
         "videos/trial/U368TS-PREFROM.mp4",
         "videos/trial/U368TS3S-MIXED THREE COLOR MACHINE.mp4"
-      ]
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U388TSF9": {
@@ -4018,7 +4065,9 @@
       "machine": [],
       "trial": [
         "videos/trial/U388TSF9-PET Preform.mp4"
-      ]
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U400TS": {
@@ -4287,11 +4336,13 @@
         "videos/machine/UTS/U400TS.mp4"
       ],
       "trial": [
-        "videos/trial/U400TS-PET PREFROM 32cavity.mov",
-        "videos/trial/U400TS-PET preform one cavity.mp4",
-        "videos/trial/U400TS-PLASTIC CRATE.mp4",
-        "videos/trial/U400TS-PREFORM 48 cavities.mp4"
-      ]
+        "https://drive.google.com/file/d/1xvNcHRTBtZqbIJYJ9PN_HeD-YIm7SpTJ/preview",
+        "https://drive.google.com/file/d/1QV55x4pyU5ZQoSTenK6GEmp6ek_Z_wS-/preview",
+        "https://drive.google.com/file/d/1mOCPwmyzPCc7SjbrhR3vn_V9M2IT3WSs/preview",
+        "https://drive.google.com/file/d/1VJFSqaYx78csErGF1W0aWL3pzC-FmLrW/preview"
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U438TS": {
@@ -4559,8 +4610,12 @@
         "videos/machine/UTS/U438TS-2.mp4"
       ],
       "trial": [
-        "videos/trial/U438TS-PLASTIC BASKET.mp4"
-      ]
+        "videos/trial/U438TS-PLASTIC BASKET.mp4",
+        "https://drive.google.com/file/d/18hpdkb1wyZ6VtHKMUuTKBWHMMGM5LAw4/preview",
+        "https://drive.google.com/file/d/1VKrPMGRNZ3xrHdPiEaDNrXsD7yrpP9bQ/preview"
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U470TSF9": {
@@ -4853,7 +4908,9 @@
       ],
       "trial": [
         "videos/trial/U470TSF9-BASKET.mp4"
-      ]
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U530TS": {
@@ -5120,8 +5177,11 @@
         "videos/machine/UTS/U530TS.mp4"
       ],
       "trial": [
-        "videos/trial/U530TS-BUCKET.mp4"
-      ]
+        "https://drive.google.com/file/d/1uYLV1QBHBILgHpDGZn7myUAwSaespiQs/preview",
+        "https://drive.google.com/file/d/1uYLV1QBHBILgHpDGZn7myUAwSaespiQs/preview"
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U570TS F9": {
@@ -5406,7 +5466,13 @@
       "drawing": "570-1M.pdf",
       "outline": "570-1W.pdf"
     },
-    "num_part": "570"
+    "num_part": "570",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "U610TS": {
     "model": "U610TS",
@@ -5666,7 +5732,13 @@
       "drawing": "610TS-M.pdf",
       "outline": "610TS-W.pdf"
     },
-    "num_part": "610"
+    "num_part": "610",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "U650TSF9": {
     "model": "U650TSF9",
@@ -5955,7 +6027,9 @@
       "machine": [],
       "trial": [
         "videos/trial/U650TSF9-20L BUCKET.mp4"
-      ]
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U700TS": {
@@ -6240,7 +6314,13 @@
       "drawing": "700TS-M.pdf",
       "outline": "700TS-W.pdf"
     },
-    "num_part": "700"
+    "num_part": "700",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "U680TS": {
     "model": "U680TS",
@@ -6530,7 +6610,9 @@
       "trial": [
         "videos/trial/U680TS-BASKET.mp4",
         "videos/trial/高速机试模视频/U680TS HIGH SPEED-38L FLOWER POT.mp4"
-      ]
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U800TS": {
@@ -6819,8 +6901,12 @@
     "videos": {
       "machine": [],
       "trial": [
-        "videos/trial/U800TS-拉杆箱/U800TS-拉杆箱产品.mp4"
-      ]
+        "https://drive.google.com/file/d/1c1Yz5WhwUqYSrzOjSJYjg448-Ykov-Ia/preview",
+        "https://drive.google.com/file/d/16lLFgBHiQ_uTFzkPzP7rd0h4cJReCJbm/preview",
+        "https://drive.google.com/file/d/1Zib60Kyy_ZrFRn4XZJ39jt-dxVPxVPQE/preview"
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U1080TS": {
@@ -7112,12 +7198,15 @@
         "videos/machine/UTS/U1080TS.mp4"
       ],
       "trial": [
-        "videos/trial/U1080TS-90L BIG BUCKET.mp4",
-        "videos/trial/U1080TS-CHAIR 2022.10.21/U1080TS-CHAIR 1.mp4",
-        "videos/trial/U1080TS-DUSTBIN.mp4",
-        "videos/trial/U1080TS-TABLE TOP.mp4",
-        "videos/trial/U1080TS-Table leg.mov"
-      ]
+        "https://drive.google.com/file/d/1diCBpJNNRIQjfTjNmk2p0LUSKqipSRLy/preview",
+        "https://drive.google.com/file/d/1mbRSSLWwcUXg3qghDbL47EYldiH_zwjC/preview",
+        "https://drive.google.com/file/d/1ZL4xweLprOg_3-p8r1aPzLnzSt5bEoCp/preview",
+        "https://drive.google.com/file/d/1DvPqi62UG2zOeBkGGll_8TSOEFgwfO5s/preview",
+        "https://drive.google.com/file/d/1Q_k1MEWcjQxoKFH6QdML4LcLyb8yPpM0/preview",
+        "https://drive.google.com/file/d/1gRIHfDHpbDtJIjl8cEeT8mZtTcB8D72t/preview"
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U1200TS": {
@@ -7402,7 +7491,13 @@
       "drawing": "1200TS-M.pdf",
       "outline": "1200TS-W.pdf"
     },
-    "num_part": "1200"
+    "num_part": "1200",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "U1550TS": {
     "model": "U1550TS",
@@ -7686,7 +7781,13 @@
       "drawing": "1550TS-M.pdf",
       "outline": "1550TS-W.pdf"
     },
-    "num_part": "1550"
+    "num_part": "1550",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "U1850TS": {
     "model": "U1850TS",
@@ -7974,9 +8075,11 @@
     "videos": {
       "machine": [],
       "trial": [
-        "videos/trial/U1850TS-WASHING MACHINE COVER.mp4",
+        "https://drive.google.com/file/d/18EuizPNtRp0B03M2hGt2rZUAE1QeNfod/preview",
         "videos/trial/U1850TS-托盘试模.mp4"
-      ]
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U2000TS": {
@@ -8261,7 +8364,13 @@
       "drawing": "2000TS-M.pdf",
       "outline": "2000TS-W.pdf"
     },
-    "num_part": "2000"
+    "num_part": "2000",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "U2250TS": {
     "model": "U2250TS",
@@ -8549,10 +8658,12 @@
     "videos": {
       "machine": [],
       "trial": [
-        "videos/trial/U2250TS-PALLET1.mp4",
-        "videos/trial/U2250TS-PALLET2.mp4",
-        "videos/trial/U2250TS-WATER PIPE.mp4"
-      ]
+        "https://drive.google.com/file/d/1LlCJKoqJj-Xk0qt0WpFqJypmC0DpUNEY/preview",
+        "https://drive.google.com/file/d/1HcGOb4cGVEQG5Om3WlUWkC-FZZ-kY3W8/preview",
+        "https://drive.google.com/file/d/1UVgqx5NvF2cayy-FjU5HwD3OrZ4CH1Gg/preview"
+      ],
+      "promo": [],
+      "cases": []
     }
   },
   "U2500TS": {
@@ -8837,7 +8948,13 @@
       "drawing": "2500TS-M.pdf",
       "outline": "2500TS-W.pdf"
     },
-    "num_part": "2500"
+    "num_part": "2500",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "U2600TS": {
     "model": "U2600TS",
@@ -9049,7 +9166,13 @@
       "drawing": "2600TS-M.pdf",
       "outline": "2600TS-W.pdf"
     },
-    "num_part": "2600"
+    "num_part": "2600",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "U2800TS": {
     "model": "U2800TS",
@@ -9064,7 +9187,13 @@
       "drawing": "2800TS-M.pdf",
       "outline": "2800TS-W.pdf"
     },
-    "num_part": "2800"
+    "num_part": "2800",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "U3400TS(1)": {
     "model": "U3400TS",
@@ -9276,7 +9405,13 @@
       "drawing": "3400TS-M.pdf",
       "outline": "3400TS-W.pdf"
     },
-    "num_part": "3400"
+    "num_part": "3400",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "U3400TS(2)": {
     "model": "U3400TS",
@@ -9484,7 +9619,13 @@
       "drawing": "3400TS-M.pdf",
       "outline": "3400TS-W.pdf"
     },
-    "num_part": "3400"
+    "num_part": "3400",
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   },
   "_global": {
     "promo_videos": [
@@ -9533,6 +9674,12 @@
       "videos/cases/阿尔及利亚水壶客户2.mp4",
       "videos/cases/阿根廷1080客户卸货视频-有客户工厂名请注意.mp4",
       "videos/cases/阿根廷1080客户工厂.jpg"
-    ]
+    ],
+    "videos": {
+      "machine": [],
+      "trial": [],
+      "promo": [],
+      "cases": []
+    }
   }
 }
