@@ -261,8 +261,14 @@
     "videos": {
       "machine": [],
       "trial": [
-        "https://drive.google.com/file/d/1k7CDwJqXQXNPJ9Zx3-y3eK_pdyi_N29M/preview",
-        "https://drive.google.com/file/d/1vNVnPYOjPauG6tPLNO4qPuDkRkkkXiLW/preview"
+        {
+          "url": "https://drive.google.com/file/d/1k7CDwJqXQXNPJ9Zx3-y3eK_pdyi_N29M/preview",
+          "title": "Trial 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1vNVnPYOjPauG6tPLNO4qPuDkRkkkXiLW/preview",
+          "title": "Trial 02"
+        }
       ],
       "promo": [],
       "cases": []
@@ -529,7 +535,10 @@
     "num_part": "110",
     "videos": {
       "machine": [
-        "https://drive.google.com/file/d/13y9InkjoE9MoxWSeUkCq2_IyNoZY4loP/preview"
+        {
+          "url": "https://drive.google.com/file/d/13y9InkjoE9MoxWSeUkCq2_IyNoZY4loP/preview",
+          "title": "Machine Run 01"
+        }
       ],
       "trial": [],
       "promo": [],
@@ -797,13 +806,28 @@
     "num_part": "140",
     "videos": {
       "machine": [
-        "https://drive.google.com/file/d/1wjJRL5HyQxCvbT8FyNH3D0-xF0Xfa7q9/preview",
-        "https://drive.google.com/file/d/11JXC8PZtIKERiHAUmZ0ewwysSlW4gDee/preview"
+        {
+          "url": "https://drive.google.com/file/d/1wjJRL5HyQxCvbT8FyNH3D0-xF0Xfa7q9/preview",
+          "title": "Machine Run 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/11JXC8PZtIKERiHAUmZ0ewwysSlW4gDee/preview",
+          "title": "Machine Run 02"
+        }
       ],
       "trial": [
-        "https://drive.google.com/file/d/1-vwHVlbIehTNBrPJZNxAzmJ8jajAnzZ8/preview",
-        "https://drive.google.com/file/d/1xyYPM25Ib9sxECJC4Pi2m50ynSkFhyfW/preview",
-        "https://drive.google.com/file/d/1HQWAffLNS9SPJTFxH_5ZKk6rQPRnzfXk/preview"
+        {
+          "url": "https://drive.google.com/file/d/1-vwHVlbIehTNBrPJZNxAzmJ8jajAnzZ8/preview",
+          "title": "Trial 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1xyYPM25Ib9sxECJC4Pi2m50ynSkFhyfW/preview",
+          "title": "Trial 02"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1HQWAffLNS9SPJTFxH_5ZKk6rQPRnzfXk/preview",
+          "title": "Trial 03"
+        }
       ],
       "promo": [],
       "cases": []
@@ -1602,8 +1626,14 @@
     "num_part": "168",
     "videos": {
       "machine": [
-        "https://drive.google.com/file/d/1lXB0ugzpHS_26DVgTkGpDE2J7izBqZu4/preview",
-        "https://drive.google.com/file/d/1EbDnimTpBVwkxfwcxsCEw2BZPBdHeSuq/preview"
+        {
+          "url": "https://drive.google.com/file/d/1lXB0ugzpHS_26DVgTkGpDE2J7izBqZu4/preview",
+          "title": "Machine Run 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1EbDnimTpBVwkxfwcxsCEw2BZPBdHeSuq/preview",
+          "title": "Machine Run 02"
+        }
       ],
       "trial": [],
       "promo": [],
@@ -2138,11 +2168,26 @@
     "videos": {
       "machine": [],
       "trial": [
-        "https://drive.google.com/file/d/1m7-w9DitxeEoolodMHPsVGNQVTIxGMnB/preview",
-        "https://drive.google.com/file/d/18X8hzblkGgjZY63AHce1S1WbhgB6TFck/preview",
-        "https://drive.google.com/file/d/1SZwAXh5R0y4Cog13heZg06isAJPmCfGT/preview",
-        "https://drive.google.com/file/d/1AkQsoDDj8rQgG-x4HD99RG7-fTqjWjhi/preview",
-        "https://drive.google.com/file/d/1eGs_yHER9kn0nG3lCY8XsfjwnVYervis/preview"
+        {
+          "url": "https://drive.google.com/file/d/1m7-w9DitxeEoolodMHPsVGNQVTIxGMnB/preview",
+          "title": "Trial 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/18X8hzblkGgjZY63AHce1S1WbhgB6TFck/preview",
+          "title": "Trial 02"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1SZwAXh5R0y4Cog13heZg06isAJPmCfGT/preview",
+          "title": "Trial 03"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1AkQsoDDj8rQgG-x4HD99RG7-fTqjWjhi/preview",
+          "title": "Trial 04"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1eGs_yHER9kn0nG3lCY8XsfjwnVYervis/preview",
+          "title": "Trial 05"
+        }
       ],
       "promo": [],
       "cases": []
@@ -2409,11 +2454,20 @@
     "num_part": "230",
     "videos": {
       "machine": [
-        "https://drive.google.com/file/d/10EOII4AXh3tG5_jtXQCOi5zozVVX14I5/preview"
+        {
+          "url": "https://drive.google.com/file/d/10EOII4AXh3tG5_jtXQCOi5zozVVX14I5/preview",
+          "title": "Machine Run 01"
+        }
       ],
       "trial": [
-        "https://drive.google.com/file/d/1f9n2WnFInVyAmfgcOo-A7K2i3f24yvwo/preview",
-        "https://drive.google.com/file/d/1wSLmk0yxEEHaHkyUo1a-P9Onsd2STQba/preview"
+        {
+          "url": "https://drive.google.com/file/d/1f9n2WnFInVyAmfgcOo-A7K2i3f24yvwo/preview",
+          "title": "Trial 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1wSLmk0yxEEHaHkyUo1a-P9Onsd2STQba/preview",
+          "title": "Trial 02"
+        }
       ],
       "promo": [],
       "cases": []
@@ -2680,13 +2734,28 @@
     "num_part": "265",
     "videos": {
       "machine": [
-        "https://drive.google.com/file/d/1wIfnrUqRfu-8rHzgwttAXR3Enq92OoEx/preview"
+        {
+          "url": "https://drive.google.com/file/d/1wIfnrUqRfu-8rHzgwttAXR3Enq92OoEx/preview",
+          "title": "Machine Run 01"
+        }
       ],
       "trial": [
-        "https://drive.google.com/file/d/1uqI23HKLZ7kK0sVcCtnKcwOrq6NOIwwg/preview",
-        "https://drive.google.com/file/d/1vbXPZhvaYSCfR20kE_3FTVD_P97yDoet/preview",
-        "https://drive.google.com/file/d/1X3MEzWwyFT_tniGC9O8ddMWEIfnsEPOJ/preview",
-        "https://drive.google.com/file/d/1gxQgZ5Qsz95N76zqTNrbXxibJR6hHhVM/preview"
+        {
+          "url": "https://drive.google.com/file/d/1uqI23HKLZ7kK0sVcCtnKcwOrq6NOIwwg/preview",
+          "title": "Trial 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1vbXPZhvaYSCfR20kE_3FTVD_P97yDoet/preview",
+          "title": "Trial 02"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1X3MEzWwyFT_tniGC9O8ddMWEIfnsEPOJ/preview",
+          "title": "Trial 03"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1gxQgZ5Qsz95N76zqTNrbXxibJR6hHhVM/preview",
+          "title": "Trial 04"
+        }
       ],
       "promo": [],
       "cases": []
@@ -2954,9 +3023,18 @@
     "videos": {
       "machine": [],
       "trial": [
-        "https://drive.google.com/file/d/1mAMgDSWTLhgB_84x0H3QB3dKBUgVBH-8/preview",
-        "https://drive.google.com/file/d/1UEHK1kqTd5YpO4BhkJ5wVc2ER1sv-qiR/preview",
-        "https://drive.google.com/file/d/1elJeNDxgvbY4DWX7vNNMdy_VRY_2eYuF/preview"
+        {
+          "url": "https://drive.google.com/file/d/1mAMgDSWTLhgB_84x0H3QB3dKBUgVBH-8/preview",
+          "title": "Trial 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1UEHK1kqTd5YpO4BhkJ5wVc2ER1sv-qiR/preview",
+          "title": "Trial 02"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1elJeNDxgvbY4DWX7vNNMdy_VRY_2eYuF/preview",
+          "title": "Trial 03"
+        }
       ],
       "promo": [],
       "cases": []
@@ -3496,7 +3574,10 @@
     "num_part": "350",
     "videos": {
       "machine": [
-        "https://drive.google.com/file/d/17iAtCK5gSJcslCZhy8F36OD3NUaFOXOg/preview"
+        {
+          "url": "https://drive.google.com/file/d/17iAtCK5gSJcslCZhy8F36OD3NUaFOXOg/preview",
+          "title": "Machine Run 01"
+        }
       ],
       "trial": [],
       "promo": [],
@@ -3764,15 +3845,36 @@
     "num_part": "368",
     "videos": {
       "machine": [
-        "https://drive.google.com/file/d/1i6aPq11SijoZQAKIeuk8-YKvBmps1mkS/preview"
+        {
+          "url": "https://drive.google.com/file/d/1i6aPq11SijoZQAKIeuk8-YKvBmps1mkS/preview",
+          "title": "Machine Run 01"
+        }
       ],
       "trial": [
-        "https://drive.google.com/file/d/1jzXVDsJSNCrMmrc0lV0Z3rWq4E0aqKNz/preview",
-        "https://drive.google.com/file/d/10zrv_IDps99vrPh6tm3ugPq6zd6aApBu/preview",
-        "https://drive.google.com/file/d/1pKGF_J-_cztc-HYSvNw-TuNmz7xVRXR4/preview",
-        "https://drive.google.com/file/d/1zK1qDVjCpwLz-QlLyMX8LbKqGLb4igvG/preview",
-        "https://drive.google.com/file/d/1mpnQQj-62X7f6AYYOi8aIZ3s97EDGKi1/preview",
-        "https://drive.google.com/file/d/1ffmRCYqP016nKc2wJMB1I6Xz1soh1YEd/preview"
+        {
+          "url": "https://drive.google.com/file/d/1jzXVDsJSNCrMmrc0lV0Z3rWq4E0aqKNz/preview",
+          "title": "Trial 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/10zrv_IDps99vrPh6tm3ugPq6zd6aApBu/preview",
+          "title": "Trial 02"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1pKGF_J-_cztc-HYSvNw-TuNmz7xVRXR4/preview",
+          "title": "Trial 03"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1zK1qDVjCpwLz-QlLyMX8LbKqGLb4igvG/preview",
+          "title": "Trial 04"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1mpnQQj-62X7f6AYYOi8aIZ3s97EDGKi1/preview",
+          "title": "Trial 05"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1ffmRCYqP016nKc2wJMB1I6Xz1soh1YEd/preview",
+          "title": "Trial 06"
+        }
       ],
       "promo": [],
       "cases": []
@@ -4064,7 +4166,10 @@
     "videos": {
       "machine": [],
       "trial": [
-        "https://drive.google.com/file/d/1Srg2ZTO55djn096hycdONjt3m7SKdgC8/preview"
+        {
+          "url": "https://drive.google.com/file/d/1Srg2ZTO55djn096hycdONjt3m7SKdgC8/preview",
+          "title": "Trial 01"
+        }
       ],
       "promo": [],
       "cases": []
@@ -4331,15 +4436,36 @@
     "num_part": "400",
     "videos": {
       "machine": [
-        "https://drive.google.com/file/d/1xMCuuVcvrp_9QXZudmwpzj_jB7GsWw7X/preview",
-        "https://drive.google.com/file/d/1f-7QpdW3LuZe1VXo7vO517Iv57M8ac9a/preview",
-        "https://drive.google.com/file/d/1XgLAyFcpUXgEKtkx59ZwUoekRjqSbv8e/preview"
+        {
+          "url": "https://drive.google.com/file/d/1xMCuuVcvrp_9QXZudmwpzj_jB7GsWw7X/preview",
+          "title": "Machine Run 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1f-7QpdW3LuZe1VXo7vO517Iv57M8ac9a/preview",
+          "title": "Machine Run 02"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1XgLAyFcpUXgEKtkx59ZwUoekRjqSbv8e/preview",
+          "title": "Machine Run 03"
+        }
       ],
       "trial": [
-        "https://drive.google.com/file/d/1xvNcHRTBtZqbIJYJ9PN_HeD-YIm7SpTJ/preview",
-        "https://drive.google.com/file/d/1QV55x4pyU5ZQoSTenK6GEmp6ek_Z_wS-/preview",
-        "https://drive.google.com/file/d/1mOCPwmyzPCc7SjbrhR3vn_V9M2IT3WSs/preview",
-        "https://drive.google.com/file/d/1VJFSqaYx78csErGF1W0aWL3pzC-FmLrW/preview"
+        {
+          "url": "https://drive.google.com/file/d/1xvNcHRTBtZqbIJYJ9PN_HeD-YIm7SpTJ/preview",
+          "title": "Trial 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1QV55x4pyU5ZQoSTenK6GEmp6ek_Z_wS-/preview",
+          "title": "Trial 02"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1mOCPwmyzPCc7SjbrhR3vn_V9M2IT3WSs/preview",
+          "title": "Trial 03"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1VJFSqaYx78csErGF1W0aWL3pzC-FmLrW/preview",
+          "title": "Trial 04"
+        }
       ],
       "promo": [],
       "cases": []
@@ -4606,13 +4732,28 @@
     "num_part": "438",
     "videos": {
       "machine": [
-        "https://drive.google.com/file/d/1-AyIleCntqb9Jpou-UEK90d62NHAFQIr/preview",
-        "https://drive.google.com/file/d/1tWBj6nn8S6x5wfe0ABpvvMcoKtPUjL97/preview"
+        {
+          "url": "https://drive.google.com/file/d/1-AyIleCntqb9Jpou-UEK90d62NHAFQIr/preview",
+          "title": "Machine Run 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1tWBj6nn8S6x5wfe0ABpvvMcoKtPUjL97/preview",
+          "title": "Machine Run 02"
+        }
       ],
       "trial": [
-        "https://drive.google.com/file/d/13o69XFWNCCvJolAcl7jX7UVh4xYL9hF3/preview",
-        "https://drive.google.com/file/d/18hpdkb1wyZ6VtHKMUuTKBWHMMGM5LAw4/preview",
-        "https://drive.google.com/file/d/1VKrPMGRNZ3xrHdPiEaDNrXsD7yrpP9bQ/preview"
+        {
+          "url": "https://drive.google.com/file/d/13o69XFWNCCvJolAcl7jX7UVh4xYL9hF3/preview",
+          "title": "Trial 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/18hpdkb1wyZ6VtHKMUuTKBWHMMGM5LAw4/preview",
+          "title": "Trial 02"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1VKrPMGRNZ3xrHdPiEaDNrXsD7yrpP9bQ/preview",
+          "title": "Trial 03"
+        }
       ],
       "promo": [],
       "cases": []
@@ -4903,11 +5044,20 @@
     "num_part": "470",
     "videos": {
       "machine": [
-        "https://drive.google.com/file/d/1GuZ0i20xZ1Hh5eQHE1BvsVYNZJUeAxzD/preview",
-        "https://drive.google.com/file/d/1cfFm9Uo9b7jf3G0ertwINIj_5ADXP8JT/preview"
+        {
+          "url": "https://drive.google.com/file/d/1GuZ0i20xZ1Hh5eQHE1BvsVYNZJUeAxzD/preview",
+          "title": "Machine Run 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1cfFm9Uo9b7jf3G0ertwINIj_5ADXP8JT/preview",
+          "title": "Machine Run 02"
+        }
       ],
       "trial": [
-        "https://drive.google.com/file/d/1dCZSjz0Yg8iPpD4RtvwdURFx0VIdkb8F/preview"
+        {
+          "url": "https://drive.google.com/file/d/1dCZSjz0Yg8iPpD4RtvwdURFx0VIdkb8F/preview",
+          "title": "Trial 01"
+        }
       ],
       "promo": [],
       "cases": []
@@ -5174,11 +5324,20 @@
     "num_part": "530",
     "videos": {
       "machine": [
-        "https://drive.google.com/file/d/1d_vUgBTNWslvSc5Y-hD0sMs7MsQZzvLt/preview"
+        {
+          "url": "https://drive.google.com/file/d/1d_vUgBTNWslvSc5Y-hD0sMs7MsQZzvLt/preview",
+          "title": "Machine Run 01"
+        }
       ],
       "trial": [
-        "https://drive.google.com/file/d/1uYLV1QBHBILgHpDGZn7myUAwSaespiQs/preview",
-        "https://drive.google.com/file/d/1uYLV1QBHBILgHpDGZn7myUAwSaespiQs/preview"
+        {
+          "url": "https://drive.google.com/file/d/1uYLV1QBHBILgHpDGZn7myUAwSaespiQs/preview",
+          "title": "Trial 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1uYLV1QBHBILgHpDGZn7myUAwSaespiQs/preview",
+          "title": "Trial 02"
+        }
       ],
       "promo": [],
       "cases": []
@@ -6026,7 +6185,10 @@
     "videos": {
       "machine": [],
       "trial": [
-        "videos/trial/U650TSF9-20L BUCKET.mp4"
+        {
+          "url": "videos/trial/U650TSF9-20L BUCKET.mp4",
+          "title": "Trial 01"
+        }
       ],
       "promo": [],
       "cases": []
@@ -6608,8 +6770,14 @@
     "videos": {
       "machine": [],
       "trial": [
-        "videos/trial/U680TS-BASKET.mp4",
-        "https://drive.google.com/file/d/1nuoTH7cXG8PBZ-QXuun_Wl6_c7SPgTIW/preview"
+        {
+          "url": "videos/trial/U680TS-BASKET.mp4",
+          "title": "Trial 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1nuoTH7cXG8PBZ-QXuun_Wl6_c7SPgTIW/preview",
+          "title": "Trial 02"
+        }
       ],
       "promo": [],
       "cases": []
@@ -6901,9 +7069,18 @@
     "videos": {
       "machine": [],
       "trial": [
-        "https://drive.google.com/file/d/1c1Yz5WhwUqYSrzOjSJYjg448-Ykov-Ia/preview",
-        "https://drive.google.com/file/d/16lLFgBHiQ_uTFzkPzP7rd0h4cJReCJbm/preview",
-        "https://drive.google.com/file/d/1Zib60Kyy_ZrFRn4XZJ39jt-dxVPxVPQE/preview"
+        {
+          "url": "https://drive.google.com/file/d/1c1Yz5WhwUqYSrzOjSJYjg448-Ykov-Ia/preview",
+          "title": "Trial 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/16lLFgBHiQ_uTFzkPzP7rd0h4cJReCJbm/preview",
+          "title": "Trial 02"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1Zib60Kyy_ZrFRn4XZJ39jt-dxVPxVPQE/preview",
+          "title": "Trial 03"
+        }
       ],
       "promo": [],
       "cases": []
@@ -7194,16 +7371,40 @@
     "num_part": "1080",
     "videos": {
       "machine": [
-        "https://drive.google.com/file/d/1qQ0BQ7bO24xpAF5yB3-MbFd_UTuGpeud/preview",
-        "https://drive.google.com/file/d/1ij3Ig9QlvrX4L17U-LOCllKDkhxxXEey/preview"
+        {
+          "url": "https://drive.google.com/file/d/1qQ0BQ7bO24xpAF5yB3-MbFd_UTuGpeud/preview",
+          "title": "Machine Run 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1ij3Ig9QlvrX4L17U-LOCllKDkhxxXEey/preview",
+          "title": "Machine Run 02"
+        }
       ],
       "trial": [
-        "https://drive.google.com/file/d/1diCBpJNNRIQjfTjNmk2p0LUSKqipSRLy/preview",
-        "https://drive.google.com/file/d/1mbRSSLWwcUXg3qghDbL47EYldiH_zwjC/preview",
-        "https://drive.google.com/file/d/1ZL4xweLprOg_3-p8r1aPzLnzSt5bEoCp/preview",
-        "https://drive.google.com/file/d/1DvPqi62UG2zOeBkGGll_8TSOEFgwfO5s/preview",
-        "https://drive.google.com/file/d/1Q_k1MEWcjQxoKFH6QdML4LcLyb8yPpM0/preview",
-        "https://drive.google.com/file/d/1gRIHfDHpbDtJIjl8cEeT8mZtTcB8D72t/preview"
+        {
+          "url": "https://drive.google.com/file/d/1diCBpJNNRIQjfTjNmk2p0LUSKqipSRLy/preview",
+          "title": "Trial 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1mbRSSLWwcUXg3qghDbL47EYldiH_zwjC/preview",
+          "title": "Trial 02"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1ZL4xweLprOg_3-p8r1aPzLnzSt5bEoCp/preview",
+          "title": "Trial 03"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1DvPqi62UG2zOeBkGGll_8TSOEFgwfO5s/preview",
+          "title": "Trial 04"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1Q_k1MEWcjQxoKFH6QdML4LcLyb8yPpM0/preview",
+          "title": "Trial 05"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1gRIHfDHpbDtJIjl8cEeT8mZtTcB8D72t/preview",
+          "title": "Trial 06"
+        }
       ],
       "promo": [],
       "cases": []
@@ -8075,8 +8276,14 @@
     "videos": {
       "machine": [],
       "trial": [
-        "https://drive.google.com/file/d/18EuizPNtRp0B03M2hGt2rZUAE1QeNfod/preview",
-        "videos/trial/U1850TS-托盘试模.mp4"
+        {
+          "url": "https://drive.google.com/file/d/18EuizPNtRp0B03M2hGt2rZUAE1QeNfod/preview",
+          "title": "Trial 01"
+        },
+        {
+          "url": "videos/trial/U1850TS-托盘试模.mp4",
+          "title": "Trial 02"
+        }
       ],
       "promo": [],
       "cases": []
@@ -8658,9 +8865,18 @@
     "videos": {
       "machine": [],
       "trial": [
-        "https://drive.google.com/file/d/1LlCJKoqJj-Xk0qt0WpFqJypmC0DpUNEY/preview",
-        "https://drive.google.com/file/d/1HcGOb4cGVEQG5Om3WlUWkC-FZZ-kY3W8/preview",
-        "https://drive.google.com/file/d/1UVgqx5NvF2cayy-FjU5HwD3OrZ4CH1Gg/preview"
+        {
+          "url": "https://drive.google.com/file/d/1LlCJKoqJj-Xk0qt0WpFqJypmC0DpUNEY/preview",
+          "title": "Trial 01"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1HcGOb4cGVEQG5Om3WlUWkC-FZZ-kY3W8/preview",
+          "title": "Trial 02"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1UVgqx5NvF2cayy-FjU5HwD3OrZ4CH1Gg/preview",
+          "title": "Trial 03"
+        }
       ],
       "promo": [],
       "cases": []
@@ -9629,51 +9845,180 @@
   },
   "_global": {
     "promo_videos": [
-      "https://drive.google.com/file/d/1hdRkm8ewH5Qxvws8MQHUugeuYdEgcaz1/preview",
-      "https://drive.google.com/file/d/1VEwoNykednhjYnqhXpD4SmAMyE_8dYqk/preview",
-      "https://drive.google.com/file/d/17a1ZCVbPaZT4LKsmKIdxLPwq7MW_sU3o/preview",
-      "https://drive.google.com/file/d/1lEMpR2ku8dAfeMJ7DQpzx9h0g81tet6X/preview",
-      "https://drive.google.com/file/d/1xgD_V892_BHvX3Rj0E3wRiFlbj3YPtDO/preview",
-      "https://drive.google.com/file/d/1D48jjfohazUNaFkam3v7tl-0QzqWwdTq/preview",
-      "https://drive.google.com/file/d/1vSruxFg1peA9rlL1vLdmm3RLhWJfesgb/preview",
-      "https://drive.google.com/file/d/13TXE2njgVZ1y4PJef_e2ZmhOsdSkTvld/preview",
-      "https://drive.google.com/file/d/14hdMr-BSxEt3773dGAqFfqvnOBYVwKS-/preview",
-      "https://drive.google.com/file/d/12d-amaV7KPS2kUCB4eqSgQVoHgTW3FvR/preview",
-      "https://drive.google.com/file/d/1GzxrB7U8Jq_6-Wxb37-UnZ4Kp3EMMNFt/preview",
-      "https://drive.google.com/file/d/1F_Hy-26lCSm3CwIm9iVK_w8z6L5FVXkm/preview",
-      "https://drive.google.com/file/d/1XRxxIljsNpa_BheGReHgid4EdeXjF13m/preview",
-      "https://drive.google.com/file/d/1Fnt_1J45aDJPoTMyWILYQO7ZPCvLFrJ7/preview",
-      "https://drive.google.com/file/d/1ghMXtqAQ_g4NulUbMGIs-xz9qtm87V7Q/preview",
-      "https://drive.google.com/file/d/11vu0fekfmHXDFEeTdTCbnAOQQOHZWFu4/preview",
-      "https://drive.google.com/file/d/1WPWZlJO9AvgEW5dKHX3VRI7LrdSQGcaf/preview",
-      "https://drive.google.com/file/d/1qm2oLnUncZ8gGAhwwYCEiZG5YuFyT-ZR/preview",
-      "https://drive.google.com/file/d/1Y5uBkatQ5sRwnRzL7lQC60PJLFaiyGWF/preview",
-      "https://drive.google.com/file/d/1GTO_zlfpazL5WBbsh6v5dDivZazg9riy/preview",
-      "https://drive.google.com/file/d/1uAdvVNhg9yyny78EsPscg7-N8ylJbZbt/preview"
+      {
+        "url": "https://drive.google.com/file/d/1hdRkm8ewH5Qxvws8MQHUugeuYdEgcaz1/preview",
+        "title": "宣传视频 01"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1VEwoNykednhjYnqhXpD4SmAMyE_8dYqk/preview",
+        "title": "宣传视频 02"
+      },
+      {
+        "url": "https://drive.google.com/file/d/17a1ZCVbPaZT4LKsmKIdxLPwq7MW_sU3o/preview",
+        "title": "宣传视频 03"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1lEMpR2ku8dAfeMJ7DQpzx9h0g81tet6X/preview",
+        "title": "宣传视频 04"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1xgD_V892_BHvX3Rj0E3wRiFlbj3YPtDO/preview",
+        "title": "宣传视频 05"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1D48jjfohazUNaFkam3v7tl-0QzqWwdTq/preview",
+        "title": "宣传视频 06"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1vSruxFg1peA9rlL1vLdmm3RLhWJfesgb/preview",
+        "title": "宣传视频 07"
+      },
+      {
+        "url": "https://drive.google.com/file/d/13TXE2njgVZ1y4PJef_e2ZmhOsdSkTvld/preview",
+        "title": "宣传视频 08"
+      },
+      {
+        "url": "https://drive.google.com/file/d/14hdMr-BSxEt3773dGAqFfqvnOBYVwKS-/preview",
+        "title": "宣传视频 09"
+      },
+      {
+        "url": "https://drive.google.com/file/d/12d-amaV7KPS2kUCB4eqSgQVoHgTW3FvR/preview",
+        "title": "宣传视频 10"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1GzxrB7U8Jq_6-Wxb37-UnZ4Kp3EMMNFt/preview",
+        "title": "宣传视频 11"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1F_Hy-26lCSm3CwIm9iVK_w8z6L5FVXkm/preview",
+        "title": "宣传视频 12"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1XRxxIljsNpa_BheGReHgid4EdeXjF13m/preview",
+        "title": "宣传视频 13"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1Fnt_1J45aDJPoTMyWILYQO7ZPCvLFrJ7/preview",
+        "title": "宣传视频 14"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1ghMXtqAQ_g4NulUbMGIs-xz9qtm87V7Q/preview",
+        "title": "宣传视频 15"
+      },
+      {
+        "url": "https://drive.google.com/file/d/11vu0fekfmHXDFEeTdTCbnAOQQOHZWFu4/preview",
+        "title": "宣传视频 16"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1WPWZlJO9AvgEW5dKHX3VRI7LrdSQGcaf/preview",
+        "title": "宣传视频 17"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1qm2oLnUncZ8gGAhwwYCEiZG5YuFyT-ZR/preview",
+        "title": "宣传视频 18"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1Y5uBkatQ5sRwnRzL7lQC60PJLFaiyGWF/preview",
+        "title": "宣传视频 19"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1GTO_zlfpazL5WBbsh6v5dDivZazg9riy/preview",
+        "title": "宣传视频 20"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1uAdvVNhg9yyny78EsPscg7-N8ylJbZbt/preview",
+        "title": "宣传视频 21"
+      }
     ],
     "case_videos": [
-      "https://drive.google.com/file/d/1r2Djtzwo9CRWah-dZ2cBLmdFHRmBM5gR/preview",
-      "https://drive.google.com/file/d/1GUQrewSb_zhJD1fgnLc__xks_MJsv2WD/preview",
-      "https://drive.google.com/file/d/1qUHegnTeRYsw1_-ouqs_rqPEnl8MVMfn/preview",
-      "https://drive.google.com/file/d/1vN_pIU4ebvmjRj38wR27G-A027i133ke/preview",
-      "https://drive.google.com/file/d/15dSCCeOJUV_cKfQY9yj_dqc-dU9DGOCV/preview",
-      "https://drive.google.com/file/d/1WxMBcbCPE2vaQdGyuAvNNB0DORyhWP66/preview",
-      "https://drive.google.com/file/d/1XKGrgcy8XUA1eNa9q3kgZ2bViK_j8Eea/preview",
-      "https://drive.google.com/file/d/1WllvmgDggJo7_DhQXv_C36ow8nb1G8gI/preview",
-      "https://drive.google.com/file/d/1FuxuLgz8NFkiladw_3wnW1EAqxBaXvSL/preview",
-      "https://drive.google.com/file/d/1aM8c2e7XgOvxWnM6rgo-Jl9CyGhHrFOw/preview",
-      "https://drive.google.com/file/d/1NU4K_eCBV9bP7WOF0yyV1wje9hJrTaHC/preview",
-      "https://drive.google.com/file/d/1_vqF5iB68TxqfB2MCXaiFd2zPny61y5H/preview",
-      "https://drive.google.com/file/d/1VXU4lOVQT815gf0xotq86pftoVApX9uW/preview",
-      "https://drive.google.com/file/d/1p1OatMdsIdf84FzvsawKFJVh0x8VqFff/preview",
-      "https://drive.google.com/file/d/12n9BHey9MsD6Fw4O9-TrruR5fRxidQWy/preview",
-      "https://drive.google.com/file/d/11Eg_P-zF6OFZ9IoDT9sGkUAtb5GPSZCG/preview",
-      "https://drive.google.com/file/d/1J0od2ywjcy1SEi4Du09rsg08ExuWjziS/preview",
-      "https://drive.google.com/file/d/1nr9uuytF5mbZwjyzMLdB8aaSQ5U1CNmv/preview",
-      "https://drive.google.com/file/d/1oZftV9wKE8KlBsFEHZAWVQrGDTa_BWMI/preview",
-      "https://drive.google.com/file/d/1zR6IXNMkgIXtjJernN7GhRosmFPtXUX0/preview",
-      "https://drive.google.com/file/d/1bhVnw2NZnWYRggYEqXG2wpYrX2hxKRrV/preview",
-      "https://drive.google.com/file/d/1hg_HTHDijPy3ARGLSvFu1MTjFeXambrA/preview"
+      {
+        "url": "https://drive.google.com/file/d/1r2Djtzwo9CRWah-dZ2cBLmdFHRmBM5gR/preview",
+        "title": "客户案例 01"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1GUQrewSb_zhJD1fgnLc__xks_MJsv2WD/preview",
+        "title": "客户案例 02"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1qUHegnTeRYsw1_-ouqs_rqPEnl8MVMfn/preview",
+        "title": "客户案例 03"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1vN_pIU4ebvmjRj38wR27G-A027i133ke/preview",
+        "title": "客户案例 04"
+      },
+      {
+        "url": "https://drive.google.com/file/d/15dSCCeOJUV_cKfQY9yj_dqc-dU9DGOCV/preview",
+        "title": "客户案例 05"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1WxMBcbCPE2vaQdGyuAvNNB0DORyhWP66/preview",
+        "title": "客户案例 06"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1XKGrgcy8XUA1eNa9q3kgZ2bViK_j8Eea/preview",
+        "title": "客户案例 07"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1WllvmgDggJo7_DhQXv_C36ow8nb1G8gI/preview",
+        "title": "客户案例 08"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1FuxuLgz8NFkiladw_3wnW1EAqxBaXvSL/preview",
+        "title": "客户案例 09"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1aM8c2e7XgOvxWnM6rgo-Jl9CyGhHrFOw/preview",
+        "title": "客户案例 10"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1NU4K_eCBV9bP7WOF0yyV1wje9hJrTaHC/preview",
+        "title": "客户案例 11"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1_vqF5iB68TxqfB2MCXaiFd2zPny61y5H/preview",
+        "title": "客户案例 12"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1VXU4lOVQT815gf0xotq86pftoVApX9uW/preview",
+        "title": "客户案例 13"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1p1OatMdsIdf84FzvsawKFJVh0x8VqFff/preview",
+        "title": "客户案例 14"
+      },
+      {
+        "url": "https://drive.google.com/file/d/12n9BHey9MsD6Fw4O9-TrruR5fRxidQWy/preview",
+        "title": "客户案例 15"
+      },
+      {
+        "url": "https://drive.google.com/file/d/11Eg_P-zF6OFZ9IoDT9sGkUAtb5GPSZCG/preview",
+        "title": "客户案例 16"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1J0od2ywjcy1SEi4Du09rsg08ExuWjziS/preview",
+        "title": "客户案例 17"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1nr9uuytF5mbZwjyzMLdB8aaSQ5U1CNmv/preview",
+        "title": "客户案例 18"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1oZftV9wKE8KlBsFEHZAWVQrGDTa_BWMI/preview",
+        "title": "客户案例 19"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1zR6IXNMkgIXtjJernN7GhRosmFPtXUX0/preview",
+        "title": "客户案例 20"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1bhVnw2NZnWYRggYEqXG2wpYrX2hxKRrV/preview",
+        "title": "客户案例 21"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1hg_HTHDijPy3ARGLSvFu1MTjFeXambrA/preview",
+        "title": "客户案例 22"
+      }
     ],
     "videos": {
       "machine": [],

@@ -866,27 +866,25 @@ function renderVideoPanel(m) {
   const activeMachine = _videoSubTab === 'machine';
   const activeTrial = _videoSubTab === 'trial';
 
-  const machineHtml = machineList.map(p => `
-    <div class="video-card" onclick="openVideoModal('${p.replace(/'/g,"\\'")}')">
+  function buildVideoCard(item, badgeHtml) {
+    // 兼容旧格式（纯字符串）和新格式（{url, title}对象）
+    const url   = (typeof item === 'string') ? item : (item.url || '');
+    const title = (typeof item === 'string') ? formatVideoName(item.split('/').pop()) : (item.title || formatVideoName(url.split('/').pop()));
+    const safeUrl = url.replace(/'/g, "\\'");
+    return `
+    <div class="video-card" onclick="openVideoModal('${safeUrl}')">
       <div class="video-thumb">
-        <div class="video-play-btn">${getVideoIcon(p)}</div>
+        <div class="video-play-btn">${getVideoIcon(url)}</div>
       </div>
       <div class="video-info">
-        <span class="video-badge badge-machine">机器空跑 / Machine Run</span>
-        <div class="video-name">${formatVideoName(p.split('/').pop())}</div>
+        <span class="video-badge ${badgeHtml}">${badgeHtml === 'badge-machine' ? '机器空跑 / Machine Run' : '试模视频 / Trial Molding'}</span>
+        <div class="video-name">${title}</div>
       </div>
-    </div>`).join('');
+    </div>`;
+  }
 
-  const trialHtml = trialList.map(p => `
-    <div class="video-card" onclick="openVideoModal('${p.replace(/'/g,"\\'")}')">
-      <div class="video-thumb">
-        <div class="video-play-btn">${getVideoIcon(p)}</div>
-      </div>
-      <div class="video-info">
-        <span class="video-badge badge-trial">试模视频 / Trial Molding</span>
-        <div class="video-name">${formatVideoName(p.split('/').pop())}</div>
-      </div>
-    </div>`).join('');
+  const machineHtml = machineList.map(p => buildVideoCard(p, 'badge-machine')).join('');
+  const trialHtml = trialList.map(p => buildVideoCard(p, 'badge-trial')).join('');
 
   return `
     <div>
@@ -972,16 +970,23 @@ function showGlobalSection(type) {
       <button class="btn btn-primary" style="margin-top:16px" onclick="backFromGlobal()">← 返回 / Back</button>
     </div>`;
   } else {
-    const grid = videos.map(p => `
-      <div class="video-card" onclick="openVideoModal('${p.replace(/'/g,"\\'")}')">
+    const grid = videos.map(item => {
+      // 兼容旧格式（纯字符串）和新格式（{url, title}对象）
+      const url   = (typeof item === 'string') ? item : (item.url || '');
+      const title = (typeof item === 'string') ? formatVideoName(item.split('/').pop()) : (item.title || formatVideoName(url.split('/').pop()));
+      const safeUrl   = url.replace(/'/g, "\\'");
+      const safeTitle = title.replace(/'/g, "\\'");
+      return `
+      <div class="video-card" onclick="openVideoModal('${safeUrl}')">
         <div class="video-thumb">
-          <div class="video-play-btn">${getVideoIcon(p)}</div>
+          <div class="video-play-btn">${getVideoIcon(url)}</div>
         </div>
         <div class="video-info">
           <span class="video-badge ${badgeClass}">${type === 'promo' ? '工厂宣传' : '客户案例'} / ${type === 'promo' ? 'Factory' : 'Customer Case'}</span>
-          <div class="video-name">${formatVideoName(p.split('/').pop())}</div>
+          <div class="video-name">${title}</div>
         </div>
-      </div>`).join('');
+      </div>`;
+    }).join('');
 
     view.innerHTML = `
       <div class="spec-card" style="margin-bottom:16px;display:flex;align-items:center;gap:12px;padding:14px 20px;flex-wrap:wrap">

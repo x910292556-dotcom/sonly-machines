@@ -361,6 +361,48 @@
   .toast-inner {
     position: relative; overflow: hidden;
   }
+
+  /* ── Title Manager ── */
+  .tm-item {
+    display: flex; align-items: stretch; gap: 10px;
+    padding: 10px; margin-bottom: 8px; border-radius: 8px;
+    background: var(--bg); border: 1px solid var(--border);
+    transition: border-color 0.2s;
+  }
+  .tm-item:hover { border-color: var(--accent); }
+  .tm-index {
+    display: flex; align-items: center; justify-content: center;
+    width: 32px; min-width: 32px; height: 32px; border-radius: 6px;
+    background: var(--accent); color: #fff; font-size: 13px; font-weight: 700;
+  }
+  .tm-body { flex: 1; min-width: 0; }
+  .tm-url-row { margin-bottom: 6px; }
+  .tm-link {
+    font-size: 11px; color: var(--accent); text-decoration: none;
+    opacity: 0.8; transition: opacity 0.2s;
+  }
+  .tm-link:hover { opacity: 1; text-decoration: underline; }
+  .tm-title-row { }
+  .tm-input {
+    width: 100%; padding: 7px 10px; border: 1.5px solid var(--border);
+    border-radius: 6px; font-size: 13px; background: var(--card-bg);
+    color: var(--text); outline: none; transition: border-color 0.2s;
+    box-sizing: border-box;
+  }
+  .tm-input:focus { border-color: var(--accent); background: #fff; }
+  .tm-input::placeholder { color: var(--text-light); font-size: 12px; }
+  .tm-cat-tabs {
+    display: flex; flex-wrap: wrap; margin-bottom: 10px;
+  }
+  .tm-source-row {
+    display: flex; gap: 6px; margin-bottom: 10px;
+  }
+  .tm-select {
+    width: 100%; padding: 8px 10px; border: 1.5px solid var(--border);
+    border-radius: 6px; font-size: 13px; background: var(--bg);
+    color: var(--text); outline: none; box-sizing: border-box;
+  }
+  .tm-select:focus { border-color: var(--accent); }
 </style>
 </head>
 <body>
@@ -400,6 +442,7 @@
       <div class="sidebar-tabs">
         <div class="s-tab active" id="tabModels" onclick="switchAdminTab('models')">📋 型号</div>
         <div class="s-tab" id="tabVideos" onclick="switchAdminTab('videos')">🎬 视频</div>
+        <div class="s-tab" id="tabTitles" onclick="switchAdminTab('titles')">✏️ 标题</div>
       </div>
 
       <!-- 模型管理面板 -->
@@ -424,6 +467,38 @@
         <div id="vmEmptyState" style="display:none;text-align:center;padding:40px;color:var(--text-light)">
           <div style="font-size:40px;margin-bottom:10px">🎬</div>
           <p>此分类暂无视频<br><span style="font-size:12px">No videos in this category</span></p>
+        </div>
+      </div>
+
+      <!-- 标题管理面板（默认隐藏） -->
+      <div id="titlesPanel" style="display:none; flex:1; overflow-y:auto; padding:12px">
+        <div style="margin-bottom:12px;font-size:13px;color:var(--text-light)">
+          管理 Google Drive 视频标题 / Edit Google Drive video titles
+        </div>
+        <!-- 数据源选择 -->
+        <div class="tm-source-row">
+          <button class="vm-tab active" id="tmSrcGlobal" onclick="switchTmSource('global')" style="font-size:12px">🌍 全局视频</button>
+          <button class="vm-tab" id="tmSrcModel" onclick="switchTmSource('model')" style="font-size:12px">📋 型号视频</button>
+        </div>
+        <!-- 全局分类 tabs -->
+        <div id="tmGlobalCats"></div>
+        <!-- 型号选择 -->
+        <div id="tmModelSelect" style="display:none;margin-bottom:10px">
+          <select id="tmModelDropdown" class="tm-select" onchange="onTmModelChange(this.value)">
+            <option value="">-- 选择型号 / Select Model --</option>
+          </select>
+        </div>
+        <!-- 型号视频分类 -->
+        <div id="tmModelCats" style="display:none"></div>
+        <div id="tmList"></div>
+        <div style="margin-top:16px">
+          <button class="mini-btn mini-btn-primary" style="width:100%;padding:10px;font-size:14px" onclick="saveTitleChanges()">
+            💾 保存更改 &amp; 下载 data.json / Save &amp; Download
+          </button>
+        </div>
+        <div style="margin-top:8px;font-size:11px;color:var(--text-light);text-align:center">
+          下载后替换网站目录中的 data.json 文件即可生效<br>
+          <span class="en">Download and replace data.json in website folder to apply changes</span>
         </div>
       </div>
     </div>
@@ -822,12 +897,17 @@ let vmVideos = {};  // { category: [ {name, path, thumb, duration, size_mb}, ...
 function switchAdminTab(tab) {
   document.getElementById('tabModels').className = 's-tab' + (tab === 'models' ? ' active' : '');
   document.getElementById('tabVideos').className = 's-tab' + (tab === 'videos' ? ' active' : '');
+  document.getElementById('tabTitles').className = 's-tab' + (tab === 'titles' ? ' active' : '');
   document.getElementById('modelsPanel').style.display = tab === 'models' ? '' : 'none';
   document.getElementById('videosPanel').style.display = tab === 'videos' ? '' : 'none';
-  document.getElementById('adminContent').style.display = tab === 'videos' ? 'none' : '';
+  document.getElementById('titlesPanel').style.display = tab === 'titles' ? '' : 'none';
+  document.getElementById('adminContent').style.display = (tab === 'videos' || tab === 'titles') ? 'none' : '';
 
   if (tab === 'videos' && Object.keys(vmVideos).length === 0) {
     loadVideoList();
+  }
+  if (tab === 'titles') {
+    loadTitleManager();
   }
 }
 
@@ -1125,6 +1205,199 @@ document.getElementById('thumbOverlay').addEventListener('click', e => {
 function autoUpdateDataJson(category, path, action) {
   // This is informational - data.json video paths are managed separately
   // For now, we just update the local cache
+}
+
+// ══════════════════════════════════════════════
+// 标题管理模块 / Title Manager (Enhanced)
+// ══════════════════════════════════════════════
+
+const TM_GLOBAL_CATS = [
+  { id: 'promo', zh: '工厂宣传', en: 'Factory Promo', icon: '🏭' },
+  { id: 'cases', zh: '客户案例', en: 'Customer Cases', icon: '🌍' },
+];
+const TM_MODEL_CATS = [
+  { id: 'machine', zh: '机器空跑', en: 'Machine Run', icon: '⚙' },
+  { id: 'trial',   zh: '试模视频', en: 'Trial Videos', icon: '🎯' },
+];
+
+let tmSource = 'global';   // 'global' or 'model'
+let tmGlobalCat = 'promo';
+let tmModelCat = 'machine';
+let tmModelKey = '';         // selected model key
+let tmCurrentItems = [];     // current displayed items (reference)
+
+function switchTmSource(src) {
+  tmSource = src;
+  document.getElementById('tmSrcGlobal').className = 'vm-tab' + (src === 'global' ? ' active' : '');
+  document.getElementById('tmSrcModel').className = 'vm-tab' + (src === 'model' ? ' active' : '');
+  document.getElementById('tmGlobalCats').style.display = src === 'global' ? '' : 'none';
+  document.getElementById('tmModelSelect').style.display = src === 'model' ? '' : 'none';
+  document.getElementById('tmModelCats').style.display = (src === 'model' && tmModelKey) ? '' : 'none';
+  if (src === 'global') {
+    renderTmGlobalTabs();
+    renderTmList();
+  } else {
+    renderTmModelDropdown();
+    renderTmList();
+  }
+}
+
+function loadTitleManager() {
+  if (!editedData || !editedData._global) {
+    showToast('请先加载数据 / Please load data first', 'error');
+    return;
+  }
+  // Render global category tabs
+  renderTmGlobalTabs();
+  // Populate model dropdown
+  renderTmModelDropdown();
+  // Show global by default
+  switchTmSource('global');
+}
+
+// ── Global (promo/cases) ──
+function renderTmGlobalTabs() {
+  const el = document.getElementById('tmGlobalCats');
+  const g = editedData._global || {};
+  el.innerHTML = TM_GLOBAL_CATS.map(c => {
+    const arr = g[c.id === 'promo' ? 'promo_videos' : 'case_videos'] || [];
+    return `<button class="vm-tab${tmGlobalCat === c.id ? ' active' : ''}"
+      onclick="switchTmGlobalCat('${c.id}')" style="margin-right:4px;margin-bottom:6px;font-size:12px">
+      ${c.icon} ${c.zh} <span class="en">(${arr.length})</span>
+    </button>`;
+  }).join('');
+}
+
+function switchTmGlobalCat(cat) {
+  tmGlobalCat = cat;
+  renderTmGlobalTabs();
+  tmCurrentItems = getTmItems();
+  renderTmList();
+}
+
+function getTmItems() {
+  if (tmSource === 'global') {
+    const g = editedData._global || {};
+    const key = tmGlobalCat === 'promo' ? 'promo_videos' : 'case_videos';
+    return (g[key] || []).map(v => (typeof v === 'string') ? {url: v, title: ''} : {...v});
+  } else {
+    if (!tmModelKey || !editedData[tmModelKey]) return [];
+    const m = editedData[tmModelKey];
+    const arr = (m.videos && m.videos[tmModelCat]) || [];
+    return arr.map(v => (typeof v === 'string') ? {url: v, title: ''} : {...v});
+  }
+}
+
+function setTmItems(items) {
+  if (tmSource === 'global') {
+    const g = editedData._global || {};
+    const key = tmGlobalCat === 'promo' ? 'promo_videos' : 'case_videos';
+    g[key] = items;
+    editedData._global = g;
+  } else {
+    if (!tmModelKey || !editedData[tmModelKey]) return;
+    if (!editedData[tmModelKey].videos) editedData[tmModelKey].videos = {};
+    editedData[tmModelKey].videos[tmModelCat] = items;
+  }
+}
+
+// ── Model selector ──
+function renderTmModelDropdown() {
+  const sel = document.getElementById('tmModelDropdown');
+  const models = Object.keys(editedData).filter(k => !k.startsWith('_')).sort();
+  sel.innerHTML = '<option value="">-- 选择型号 / Select Model --</option>' +
+    models.map(k => {
+      const m = editedData[k];
+      const mc = ((m.videos && m.videos.machine) || []).length;
+      const tc = ((m.videos && m.videos.trial) || []).length;
+      const total = mc + tc;
+      const label = m.model || m.intl_model || k;
+      return total > 0
+        ? `<option value="${k}"${k === tmModelKey ? ' selected' : ''}>${label} (${mc}+${tc})</option>`
+        : '';
+    }).join('');
+}
+
+function onTmModelChange(val) {
+  tmModelKey = val;
+  const catEl = document.getElementById('tmModelCats');
+  if (val) {
+    catEl.style.display = '';
+    renderTmModelCats();
+    tmCurrentItems = getTmItems();
+  } else {
+    catEl.style.display = 'none';
+    tmCurrentItems = [];
+  }
+  renderTmList();
+}
+
+function renderTmModelCats() {
+  if (!tmModelKey || !editedData[tmModelKey]) return;
+  const m = editedData[tmModelKey];
+  const el = document.getElementById('tmModelCats');
+  el.innerHTML = TM_MODEL_CATS.map(c => {
+    const count = ((m.videos && m.videos[c.id]) || []).length;
+    return `<button class="vm-tab${tmModelCat === c.id ? ' active' : ''}"
+      onclick="switchTmModelCat('${c.id}')" style="margin-right:4px;margin-bottom:6px;font-size:12px">
+      ${c.icon} ${c.zh} <span class="en">(${count})</span>
+    </button>`;
+  }).join('');
+}
+
+function switchTmModelCat(cat) {
+  tmModelCat = cat;
+  renderTmModelCats();
+  tmCurrentItems = getTmItems();
+  renderTmList();
+}
+
+// ── List render ──
+function renderTmList() {
+  tmCurrentItems = getTmItems();
+  const list = document.getElementById('tmList');
+  if (tmCurrentItems.length === 0) {
+    const hint = tmSource === 'model' && !tmModelKey
+      ? '请先选择型号 / Please select a model'
+      : '暂无视频 / No videos';
+    list.innerHTML = `<div style="text-align:center;padding:30px;color:var(--text-light)">${hint}</div>`;
+    return;
+  }
+  list.innerHTML = tmCurrentItems.map((item, i) => `
+    <div class="tm-item">
+      <div class="tm-index">${i + 1}</div>
+      <div class="tm-body">
+        <div class="tm-url-row">
+          <a href="${item.url}" target="_blank" title="${item.url}" class="tm-link">🔗 预览视频</a>
+        </div>
+        <div class="tm-title-row">
+          <input type="text" class="tm-input" value="${(item.title || '').replace(/"/g, '&quot;')}"
+            placeholder="输入视频标题 / Enter video title..."
+            onchange="updateTmTitle(${i}, this.value)" onfocus="this.select()">
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function updateTmTitle(idx, val) {
+  if (tmCurrentItems[idx]) {
+    tmCurrentItems[idx].title = val.trim();
+    setTmItems(tmCurrentItems);
+  }
+}
+
+function saveTitleChanges() {
+  const jsonStr = JSON.stringify(editedData, null, 2);
+  const blob = new Blob([jsonStr], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'data.json';
+  a.click();
+  URL.revokeObjectURL(url);
+  machineData = JSON.parse(JSON.stringify(editedData));
+  showToast('✅ 标题已保存！data.json 已下载 / Title saved! data.json downloaded', 'success');
 }
 
 // ── Toast progress bar ──
